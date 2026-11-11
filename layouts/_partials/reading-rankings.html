@@ -1,0 +1,16 @@
+{{ $ranked := slice }}
+{{ range .stats.years }}
+  {{ range sort (where $.books "read_year" .year) "score" "desc" }}
+    {{ $ranked = $ranked | append . }}
+  {{ end }}
+{{ end }}
+{{ $unique := slice }}
+{{ $seen := slice }}
+{{ range $ranked }}
+  {{ if not (in $seen (lower .title)) }}{{ $unique = $unique | append . }}{{ $seen = $seen | append (lower .title) }}{{ end }}
+{{ end }}
+<ol id="recent-books" class="ranked-books">
+  {{ range first 5 $unique }}
+  <li><div><h3>{{ .title }}</h3><p class="book-author">{{ .authors }}</p><p class="ranked-meta">{{ .category }} <span aria-hidden="true">·</span> <time datetime="{{ .read_year }}">Read in {{ .read_year }}</time></p></div><p class="book-score"><span class="visually-hidden">Personal score: </span>{{ .score }}/10</p></li>
+  {{ end }}
+</ol>

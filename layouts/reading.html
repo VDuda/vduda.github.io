@@ -1,0 +1,61 @@
+{{ partial "header.html" . }}
+<main id="main" tabindex="-1" class="library-page">
+  {{ partial "breadcrumbs.html" . }}
+  {{ $library := hugo.Data.reading }}
+  <header class="archive-header">
+    <p class="eyebrow">The bookshelf</p>
+    <h1>{{ .Title }}</h1>
+    <p>A reading life, year by year. The subjects I return to, recent reads, and a few numbers from the notebook.</p>
+  </header>
+  {{ partial "reading-stats.html" . }}
+
+  <div class="overview-controls" hidden>
+    <label for="overview-year">Focus on a reading year</label>
+    <select id="overview-year" aria-controls="category-chart recent-books reading-list"><option value="">All years</option>{{ range $library.stats.years }}<option value="{{ .year }}">{{ .year }}</option>{{ end }}</select>
+    <p id="overview-status" role="status" aria-live="polite" aria-atomic="true">All years · {{ $library.stats.entries }} entries</p>
+  </div>
+
+  {{ partial "reading-charts.html" $library }}
+
+  <section class="recent-reading" aria-labelledby="recent-title">
+    <header class="section-heading"><div><p class="eyebrow">From the recent shelf</p><h2 id="recent-title">Five recent reads</h2></div></header>
+    <p class="library-note" id="ranking-description">Newest reading year first, then highest personal score within that year. The sheet records years, so dates below show the year read.</p>
+    {{ partial "reading-rankings.html" $library }}
+  </section>
+
+  <section class="reading-archive" aria-labelledby="archive-title">
+    <h2 id="archive-title">The complete reading log</h2>
+    <p class="library-note">{{ $library.stats.distinct_titles }} distinct titles. Repeat entries are kept. Open a year to see its books, scores, and publication years.</p>
+    <details id="reading-archive">
+      <summary>Browse all {{ $library.stats.entries }} reading entries, organized by year</summary>
+  <form class="library-filters" id="reading-filters" hidden>
+    <div class="search-field"><label for="book-search">Search titles, authors, or categories</label><input id="book-search" type="search" name="search" placeholder="For example, Taleb or finance" autocomplete="off" aria-controls="reading-list"></div>
+    <div><label for="book-category">Category</label><select id="book-category" name="category" aria-controls="reading-list"><option value="">All categories</option>{{ range $library.stats.categories }}<option value="{{ .name }}">{{ .name }}</option>{{ end }}</select></div>
+    <div><label for="book-sort">Order within each year</label><select id="book-sort" name="sort" aria-controls="reading-list"><option value="score">Highest personal score</option><option value="title">Title, A–Z</option></select></div>
+    <button type="reset" class="secondary-button">Reset filters</button>
+  </form>
+
+      <p id="reading-results" class="library-results" role="status" aria-live="polite" aria-atomic="true">{{ len $library.books }} reading entries</p>
+      <p id="reading-empty" hidden>No entries match these filters. Try another search or reset the filters.</p>
+      <div id="reading-list">
+      {{ range $library.stats.years }}
+        <details class="reading-year" data-reading-year="{{ .year }}" id="reading-year-{{ .year }}">
+          <summary><span>{{ .year }}</span><span data-year-count>{{ .count }} {{ if eq .count 1 }}entry{{ else }}entries{{ end }}</span></summary>
+          <ol class="year-book-list book-list" role="list">
+          {{ range sort (where $library.books "read_year" .year) "score" "desc" }}
+            <li class="book-entry" data-title="{{ .title }}" data-author="{{ .authors }}" data-category="{{ .category }}" data-year="{{ .read_year }}" data-score="{{ .score }}" data-row="{{ .source_row }}">
+              <article><div class="book-heading"><h3>{{ .title }}</h3><p class="book-score"><span class="visually-hidden">Personal score: </span>{{ .score }}/10</p></div>
+              <p class="book-author">{{ .authors }}</p>
+              <dl class="book-details"><div><dt class="visually-hidden">Category</dt><dd>{{ .category }}</dd></div><div><dt>Read in</dt><dd>{{ .read_year }}</dd></div><div><dt>Published</dt><dd>{{ if lt .published_year 0 }}{{ mul .published_year -1 }} BCE{{ else }}{{ .published_year }}{{ end }}</dd></div></dl></article>
+            </li>
+          {{ end }}
+          </ol>
+        </details>
+      {{ end }}
+      </div>
+    </details>
+  </section>
+  <p class="library-note library-source">Scores are my personal ratings. <a href="{{ $library.source }}">View the original sheet</a>. Snapshot updated <time datetime="{{ $library.updated }}">{{ time.Format "January 2, 2006" $library.updated }}</time>.</p>
+  <div class="article-end"><a class="back-link" href="{{ site.Home.RelPermalink }}"><span aria-hidden="true">←</span> Back to home</a><a class="text-link" href="#main">Back to top <span aria-hidden="true">↑</span></a></div>
+</main>
+{{ partial "footer.html" . }}

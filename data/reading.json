@@ -1,0 +1,1393 @@
+{
+  "source": "https://docs.google.com/spreadsheets/d/13f8iDJDGdD8f8blAMoJfE5ofbr4PyAroc4fmHpjCRPs/edit?usp=sharing",
+  "updated": "2026-11-11",
+  "books": [
+    {
+      "title": "Personal Knowledge: Towards a post-critical philosophy",
+      "category": "Self-Help",
+      "authors": "Michael Polanyi",
+      "score": 8.0,
+      "published_year": 1974,
+      "read_year": 2026,
+      "source_row": 146
+    },
+    {
+      "title": "The Millionaire Next Door",
+      "category": "Business",
+      "authors": "Thomas J. Stanley",
+      "score": 10.0,
+      "published_year": 1998,
+      "read_year": 2025,
+      "source_row": 145
+    },
+    {
+      "title": "Poems & Prayers",
+      "category": "Fun",
+      "authors": "Matthew McConaughey",
+      "score": 9.0,
+      "published_year": 2025,
+      "read_year": 2025,
+      "source_row": 144
+    },
+    {
+      "title": "Greenlights",
+      "category": "Biography",
+      "authors": "Matthew McConaughey",
+      "score": 9.0,
+      "published_year": 2024,
+      "read_year": 2025,
+      "source_row": 143
+    },
+    {
+      "title": "Means of Control",
+      "category": "Tech",
+      "authors": "Byron Tau",
+      "score": 9.0,
+      "published_year": 2024,
+      "read_year": 2025,
+      "source_row": 142
+    },
+    {
+      "title": "A Thousand Splendid Suns",
+      "category": "Fun",
+      "authors": "Khaled Hosseini",
+      "score": 10.0,
+      "published_year": 2007,
+      "read_year": 2024,
+      "source_row": 141
+    },
+    {
+      "title": "The Hard Thing About Hard Things",
+      "category": "Biography",
+      "authors": "Ben Horowitz",
+      "score": 7.0,
+      "published_year": 2014,
+      "read_year": 2024,
+      "source_row": 140
+    },
+    {
+      "title": "Don Juan von Kolomea (Lviv)",
+      "category": "Fun",
+      "authors": "Leopold von Sacher-Masoch",
+      "score": 10.0,
+      "published_year": 1866,
+      "read_year": 2024,
+      "source_row": 139
+    },
+    {
+      "title": "Kiki's Delivery Service",
+      "category": "Fun",
+      "authors": "Eiko Kadono",
+      "score": 8.0,
+      "published_year": 2021,
+      "read_year": 2024,
+      "source_row": 138
+    },
+    {
+      "title": "The Venture Mindset",
+      "category": "Startups",
+      "authors": "Ilya Strebulaev, Alex Dang",
+      "score": 7.0,
+      "published_year": 2024,
+      "read_year": 2024,
+      "source_row": 137
+    },
+    {
+      "title": "The Little Book of Valuation",
+      "category": "Business",
+      "authors": "Aswath Damodaran",
+      "score": 10.0,
+      "published_year": 2011,
+      "read_year": 2024,
+      "source_row": 136
+    },
+    {
+      "title": "A Gentleman in Moscow",
+      "category": "Fun",
+      "authors": "Amor Towles",
+      "score": 9.0,
+      "published_year": 2016,
+      "read_year": 2024,
+      "source_row": 135
+    },
+    {
+      "title": "Extraordinary Popular Delusions & Madness of Crowds",
+      "category": "Business",
+      "authors": "Charles Mackay",
+      "score": 9.0,
+      "published_year": 1841,
+      "read_year": 2024,
+      "source_row": 134
+    },
+    {
+      "title": "Diving Into Scaling Through Chaos",
+      "category": "Business",
+      "authors": "Martin Mignot, Index Ventures",
+      "score": 5.0,
+      "published_year": 2024,
+      "read_year": 2024,
+      "source_row": 133
+    },
+    {
+      "title": "The Goldfinch",
+      "category": "Fun",
+      "authors": "Donna Tartt",
+      "score": 10.0,
+      "published_year": 2013,
+      "read_year": 2024,
+      "source_row": 132
+    },
+    {
+      "title": "The Man from St. Petersburg",
+      "category": "Fun",
+      "authors": "Ken Follett",
+      "score": 2.0,
+      "published_year": 1982,
+      "read_year": 2024,
+      "source_row": 131
+    },
+    {
+      "title": "The Book Thief",
+      "category": "Fun",
+      "authors": "Markus Zusak",
+      "score": 8.0,
+      "published_year": 2005,
+      "read_year": 2024,
+      "source_row": 130
+    },
+    {
+      "title": "The Intelligent Investor",
+      "category": "Business",
+      "authors": "Benjamin Graham",
+      "score": 9.0,
+      "published_year": 1949,
+      "read_year": 2024,
+      "source_row": 129
+    },
+    {
+      "title": "A Hacker's Mind",
+      "category": "Fun",
+      "authors": "Bruce Schneier",
+      "score": 7.0,
+      "published_year": 2023,
+      "read_year": 2024,
+      "source_row": 128
+    },
+    {
+      "title": "The Machine Stops",
+      "category": "Fun",
+      "authors": "E.M. Forestor",
+      "score": 8.0,
+      "published_year": 1909,
+      "read_year": 2023,
+      "source_row": 127
+    },
+    {
+      "title": "Speak Like Churchill, Stand Like Lincoln",
+      "category": "Business",
+      "authors": "James C. Humes",
+      "score": 8.0,
+      "published_year": 2002,
+      "read_year": 2023,
+      "source_row": 126
+    },
+    {
+      "title": "Going Infinite: The Rise and Fall of a New Tycoon",
+      "category": "Startups",
+      "authors": "Michael Lewis",
+      "score": 9.0,
+      "published_year": 2023,
+      "read_year": 2023,
+      "source_row": 125
+    },
+    {
+      "title": "The Millionaire Next Door",
+      "category": "Business",
+      "authors": "Thomas J. Stanley",
+      "score": 10.0,
+      "published_year": 1998,
+      "read_year": 2023,
+      "source_row": 124
+    },
+    {
+      "title": "Doing Good Better",
+      "category": "Business",
+      "authors": "William MacAskill",
+      "score": 9.0,
+      "published_year": 2016,
+      "read_year": 2023,
+      "source_row": 123
+    },
+    {
+      "title": "Exit Path: How to Win the Startup End Game",
+      "category": "Startups",
+      "authors": "Touraj Parang",
+      "score": 10.0,
+      "published_year": 2022,
+      "read_year": 2023,
+      "source_row": 122
+    },
+    {
+      "title": "17 Equations That Changed the World",
+      "category": "Fun",
+      "authors": "Ian Stewart",
+      "score": 7.0,
+      "published_year": 2013,
+      "read_year": 2023,
+      "source_row": 121
+    },
+    {
+      "title": "Nonviolent communication",
+      "category": "Self-Help",
+      "authors": "Marshall B. Rosenberg",
+      "score": 9.0,
+      "published_year": 1999,
+      "read_year": 2023,
+      "source_row": 120
+    },
+    {
+      "title": "The Power of Habit",
+      "category": "Self-Help",
+      "authors": "Charles Duhigg",
+      "score": 8.0,
+      "published_year": 2012,
+      "read_year": 2023,
+      "source_row": 119
+    },
+    {
+      "title": "Shell coders handbook",
+      "category": "Tech",
+      "authors": "Chris Anley, Felix Lindner, and John Heasman",
+      "score": 6.0,
+      "published_year": 2004,
+      "read_year": 2023,
+      "source_row": 118
+    },
+    {
+      "title": "Black Hat Rust",
+      "category": "Tech",
+      "authors": "Sylvain Kerkour",
+      "score": 10.0,
+      "published_year": 2022,
+      "read_year": 2023,
+      "source_row": 117
+    },
+    {
+      "title": "The Rust Programming Language",
+      "category": "Tech",
+      "authors": "Carol Nichols, Steve Klabnik",
+      "score": 8.0,
+      "published_year": 2018,
+      "read_year": 2023,
+      "source_row": 116
+    },
+    {
+      "title": "The Mom Test",
+      "category": "Startups",
+      "authors": "Rob Fitzpatrick",
+      "score": 10.0,
+      "published_year": 2019,
+      "read_year": 2022,
+      "source_row": 115
+    },
+    {
+      "title": "The Big Leap",
+      "category": "Fun",
+      "authors": "Gay Hendricks",
+      "score": 7.0,
+      "published_year": 2009,
+      "read_year": 2022,
+      "source_row": 114
+    },
+    {
+      "title": "Growth Hacker Marketing",
+      "category": "Startups",
+      "authors": "Ryan Holiday",
+      "score": 8.0,
+      "published_year": 2013,
+      "read_year": 2022,
+      "source_row": 113
+    },
+    {
+      "title": "The Dip",
+      "category": "Self-Help",
+      "authors": "Seth Godin",
+      "score": 8.0,
+      "published_year": 2007,
+      "read_year": 2022,
+      "source_row": 112
+    },
+    {
+      "title": "Doing Content Right",
+      "category": "Business",
+      "authors": "Steph Smith",
+      "score": 8.0,
+      "published_year": 2021,
+      "read_year": 2022,
+      "source_row": 111
+    },
+    {
+      "title": "7 Highly Effective Habits",
+      "category": "Self-Help",
+      "authors": "Stephen Covey",
+      "score": 8.0,
+      "published_year": 1989,
+      "read_year": 2022,
+      "source_row": 110
+    },
+    {
+      "title": "The Black Swan",
+      "category": "Fun",
+      "authors": "Nassim Taleb",
+      "score": 8.0,
+      "published_year": 2007,
+      "read_year": 2022,
+      "source_row": 109
+    },
+    {
+      "title": "Beyond Order",
+      "category": "Self-Help",
+      "authors": "Jordan Peterson",
+      "score": 8.0,
+      "published_year": 2021,
+      "read_year": 2022,
+      "source_row": 108
+    },
+    {
+      "title": "Who Moved My Cheese",
+      "category": "Business",
+      "authors": "Spencer Johnson",
+      "score": 9.0,
+      "published_year": 1998,
+      "read_year": 2022,
+      "source_row": 107
+    },
+    {
+      "title": "The Network State",
+      "category": "Tech",
+      "authors": "Balaji Srinivasan",
+      "score": 6.0,
+      "published_year": 2022,
+      "read_year": 2022,
+      "source_row": 106
+    },
+    {
+      "title": "Tokenomics",
+      "category": "Tech",
+      "authors": "Sean Au, Thomas Power",
+      "score": 7.0,
+      "published_year": 2018,
+      "read_year": 2022,
+      "source_row": 105
+    },
+    {
+      "title": "The Changing World Order",
+      "category": "Fun",
+      "authors": "Ray Dalio",
+      "score": 9.0,
+      "published_year": 2021,
+      "read_year": 2022,
+      "source_row": 104
+    },
+    {
+      "title": "The Art of Thinking Clearly",
+      "category": "Tech",
+      "authors": "Rolf Dobelli",
+      "score": 7.0,
+      "published_year": 2014,
+      "read_year": 2021,
+      "source_row": 103
+    },
+    {
+      "title": "Predictably Irrational",
+      "category": "Startups",
+      "authors": "Dan Ariely",
+      "score": 9.0,
+      "published_year": 2008,
+      "read_year": 2021,
+      "source_row": 102
+    },
+    {
+      "title": "Atomic Habits",
+      "category": "Self-Help",
+      "authors": "James Clear",
+      "score": 8.0,
+      "published_year": 2018,
+      "read_year": 2021,
+      "source_row": 101
+    },
+    {
+      "title": "The Slight Edge",
+      "category": "Self-Help",
+      "authors": "Jeff Olson",
+      "score": 2.0,
+      "published_year": 2005,
+      "read_year": 2021,
+      "source_row": 100
+    },
+    {
+      "title": "This Is Marketing",
+      "category": "Business",
+      "authors": "Seth Godin",
+      "score": 2.0,
+      "published_year": 2018,
+      "read_year": 2021,
+      "source_row": 99
+    },
+    {
+      "title": "To Sell Is Human",
+      "category": "Business",
+      "authors": "Daniel H. Pink",
+      "score": 4.0,
+      "published_year": 2012,
+      "read_year": 2021,
+      "source_row": 98
+    },
+    {
+      "title": "The Tao of Charlie Munger",
+      "category": "Biography",
+      "authors": "David Clark",
+      "score": 4.0,
+      "published_year": 2017,
+      "read_year": 2021,
+      "source_row": 97
+    },
+    {
+      "title": "Bold",
+      "category": "Self-Help",
+      "authors": "Peter Diamandis",
+      "score": 6.0,
+      "published_year": 2015,
+      "read_year": 2021,
+      "source_row": 96
+    },
+    {
+      "title": "The 1 Million Web Designer Guide",
+      "category": "Business",
+      "authors": "Anthony Rob O’Rourke",
+      "score": 7.0,
+      "published_year": 2021,
+      "read_year": 2021,
+      "source_row": 95
+    },
+    {
+      "title": "How to Market a Book",
+      "category": "Business",
+      "authors": "Ricardo Fayet",
+      "score": 6.0,
+      "published_year": 2021,
+      "read_year": 2021,
+      "source_row": 94
+    },
+    {
+      "title": "Fundraising",
+      "category": "Startups",
+      "authors": "Ryan Breslow",
+      "score": 7.0,
+      "published_year": 2021,
+      "read_year": 2021,
+      "source_row": 93
+    },
+    {
+      "title": "Dating Essentials for Men",
+      "category": "Fun",
+      "authors": "Dr. Robert Glover",
+      "score": 8.0,
+      "published_year": 2019,
+      "read_year": 2021,
+      "source_row": 92
+    },
+    {
+      "title": "Made to Stick",
+      "category": "Business",
+      "authors": "Chip and Dan Heath",
+      "score": 8.0,
+      "published_year": 2007,
+      "read_year": 2021,
+      "source_row": 91
+    },
+    {
+      "title": "The One Thing",
+      "category": "Business",
+      "authors": "Gary Keller",
+      "score": 8.0,
+      "published_year": 2012,
+      "read_year": 2021,
+      "source_row": 90
+    },
+    {
+      "title": "The Almanack of Naval Ravikant",
+      "category": "Self-Help",
+      "authors": "Eric Jorgenson",
+      "score": 7.0,
+      "published_year": 2020,
+      "read_year": 2021,
+      "source_row": 89
+    },
+    {
+      "title": "Charisma on Command",
+      "category": "Self-Help",
+      "authors": "Charlie Houpert",
+      "score": 9.0,
+      "published_year": 2014,
+      "read_year": 2021,
+      "source_row": 88
+    },
+    {
+      "title": "Rework",
+      "category": "Business",
+      "authors": "Jason Fried and David Heinemeier Hansson",
+      "score": 9.0,
+      "published_year": 2010,
+      "read_year": 2021,
+      "source_row": 87
+    },
+    {
+      "title": "The Art of War",
+      "category": "Fun",
+      "authors": "Sun Tzu",
+      "score": 9.0,
+      "published_year": -500,
+      "read_year": 2021,
+      "source_row": 86
+    },
+    {
+      "title": "Delivering Happiness",
+      "category": "Biography",
+      "authors": "Tony Hsieh",
+      "score": 9.0,
+      "published_year": 2010,
+      "read_year": 2021,
+      "source_row": 85
+    },
+    {
+      "title": "The 10X Rule",
+      "category": "Self-Help",
+      "authors": "Grant Cardone",
+      "score": 9.0,
+      "published_year": 2011,
+      "read_year": 2021,
+      "source_row": 84
+    },
+    {
+      "title": "Will it Fly",
+      "category": "Business",
+      "authors": "Pat Flynn",
+      "score": 9.0,
+      "published_year": 2016,
+      "read_year": 2021,
+      "source_row": 83
+    },
+    {
+      "title": "The 22 Immutable Laws of Marketing",
+      "category": "Business",
+      "authors": "Al Ries and Jack Trout",
+      "score": 9.0,
+      "published_year": 1993,
+      "read_year": 2021,
+      "source_row": 82
+    },
+    {
+      "title": "The 10 Pillars of Wealth",
+      "category": "Self-Help",
+      "authors": "Alex Becker",
+      "score": 9.0,
+      "published_year": 2016,
+      "read_year": 2021,
+      "source_row": 81
+    },
+    {
+      "title": "Traction",
+      "category": "Business",
+      "authors": "Gabriel Weinberg and Justin Mares",
+      "score": 9.0,
+      "published_year": 2014,
+      "read_year": 2021,
+      "source_row": 80
+    },
+    {
+      "title": "The Setup",
+      "category": "Fun",
+      "authors": "Dan Bilzerian",
+      "score": 5.0,
+      "published_year": 2021,
+      "read_year": 2021,
+      "source_row": 79
+    },
+    {
+      "title": "The Millionaire Fastlane",
+      "category": "Self-Help",
+      "authors": "MJ DeMarco",
+      "score": 10.0,
+      "published_year": 2011,
+      "read_year": 2021,
+      "source_row": 78
+    },
+    {
+      "title": "Unscripted",
+      "category": "Business",
+      "authors": "MJ DeMarco",
+      "score": 10.0,
+      "published_year": 2017,
+      "read_year": 2021,
+      "source_row": 77
+    },
+    {
+      "title": "Personality Isn’t Permanent",
+      "category": "Self-Help",
+      "authors": "Benjamin Hardy",
+      "score": 10.0,
+      "published_year": 2020,
+      "read_year": 2021,
+      "source_row": 76
+    },
+    {
+      "title": "Everything Is F*cked: A Book About Hope",
+      "category": "Fun",
+      "authors": "Mark Manson",
+      "score": 5.0,
+      "published_year": 2019,
+      "read_year": 2021,
+      "source_row": 75
+    },
+    {
+      "title": "Surrounded by Idiots",
+      "category": "Self-Help",
+      "authors": "Thomas Erikson",
+      "score": 8.0,
+      "published_year": 2020,
+      "read_year": 2020,
+      "source_row": 74
+    },
+    {
+      "title": "Bad Data",
+      "category": "Tech",
+      "authors": "Peter Schryvers",
+      "score": 9.0,
+      "published_year": 2020,
+      "read_year": 2020,
+      "source_row": 73
+    },
+    {
+      "title": "The Psychology of Money",
+      "category": "Business",
+      "authors": "Morgan Housel",
+      "score": 7.0,
+      "published_year": 2020,
+      "read_year": 2020,
+      "source_row": 72
+    },
+    {
+      "title": "Can't Hurt Me",
+      "category": "Self-Help",
+      "authors": "David Goggins",
+      "score": 7.0,
+      "published_year": 2018,
+      "read_year": 2020,
+      "source_row": 71
+    },
+    {
+      "title": "The Bed of Procrustes",
+      "category": "Fun",
+      "authors": "Nassim Taleb",
+      "score": 7.0,
+      "published_year": 2010,
+      "read_year": 2020,
+      "source_row": 70
+    },
+    {
+      "title": "Civilized to Death",
+      "category": "Self-Help",
+      "authors": "Chris Ryan",
+      "score": 8.0,
+      "published_year": 2019,
+      "read_year": 2020,
+      "source_row": 69
+    },
+    {
+      "title": "The Art and Business of Online Writing",
+      "category": "Biography",
+      "authors": "Nicolas Cole",
+      "score": 10.0,
+      "published_year": 2020,
+      "read_year": 2020,
+      "source_row": 68
+    },
+    {
+      "title": "Breakthrough Advertising",
+      "category": "Business",
+      "authors": "Eugene Schwartz",
+      "score": 9.0,
+      "published_year": 1966,
+      "read_year": 2020,
+      "source_row": 67
+    },
+    {
+      "title": "The 48 Laws of Power",
+      "category": "Self-Help",
+      "authors": "Robert Greene",
+      "score": 7.0,
+      "published_year": 1998,
+      "read_year": 2020,
+      "source_row": 66
+    },
+    {
+      "title": "The Last Lecture",
+      "category": "Biography",
+      "authors": "Randy Pausch",
+      "score": 10.0,
+      "published_year": 2008,
+      "read_year": 2020,
+      "source_row": 65
+    },
+    {
+      "title": "Copywriting Secrets",
+      "category": "Business",
+      "authors": "Jim Edwards",
+      "score": 10.0,
+      "published_year": 2019,
+      "read_year": 2020,
+      "source_row": 64
+    },
+    {
+      "title": "The Personal MBA",
+      "category": "Self-Help",
+      "authors": "Josh Kaufman",
+      "score": 8.0,
+      "published_year": 2017,
+      "read_year": 2020,
+      "source_row": 63
+    },
+    {
+      "title": "Measure What Matters",
+      "category": "Tech",
+      "authors": "John Doerr",
+      "score": 9.0,
+      "published_year": 2017,
+      "read_year": 2020,
+      "source_row": 62
+    },
+    {
+      "title": "Scientific Advertising",
+      "category": "Business",
+      "authors": "Claude Hopkins",
+      "score": 8.0,
+      "published_year": 1923,
+      "read_year": 2019,
+      "source_row": 61
+    },
+    {
+      "title": "Never Split the Difference",
+      "category": "Self-Help",
+      "authors": "Chris Voss",
+      "score": 10.0,
+      "published_year": 2016,
+      "read_year": 2019,
+      "source_row": 60
+    },
+    {
+      "title": "Contagious: Why Things Catch On",
+      "category": "Business",
+      "authors": "Jonah Berger",
+      "score": 7.0,
+      "published_year": 2013,
+      "read_year": 2019,
+      "source_row": 59
+    },
+    {
+      "title": "Practical Female Psychology for the Practical Man",
+      "category": "Fun",
+      "authors": "Joseph, David, and Franco",
+      "score": 7.0,
+      "published_year": 2015,
+      "read_year": 2019,
+      "source_row": 58
+    },
+    {
+      "title": "Way of The Wolf: Straight Line Selling",
+      "category": "Business",
+      "authors": "Jordan Belfort",
+      "score": 5.0,
+      "published_year": 2017,
+      "read_year": 2019,
+      "source_row": 57
+    },
+    {
+      "title": "Zero to One",
+      "category": "Startups",
+      "authors": "Peter Thiel",
+      "score": 10.0,
+      "published_year": 2014,
+      "read_year": 2019,
+      "source_row": 56
+    },
+    {
+      "title": "Outliers: The Story of Success",
+      "category": "Self-Help",
+      "authors": "Malcom Gladwell",
+      "score": 4.0,
+      "published_year": 2011,
+      "read_year": 2019,
+      "source_row": 55
+    },
+    {
+      "title": "Deep Thinking: Where Machine Intelligence Ends and Human Creativity Begins",
+      "category": "Tech",
+      "authors": "Garry Kasparov",
+      "score": 8.0,
+      "published_year": 2017,
+      "read_year": 2019,
+      "source_row": 54
+    },
+    {
+      "title": "The Unicorn Project",
+      "category": "Tech",
+      "authors": "Gene Kim",
+      "score": 10.0,
+      "published_year": 2019,
+      "read_year": 2019,
+      "source_row": 53
+    },
+    {
+      "title": "The Subtle Art of Not Giving a F*CK",
+      "category": "Fun",
+      "authors": "Mark Manson",
+      "score": 7.0,
+      "published_year": 2016,
+      "read_year": 2019,
+      "source_row": 52
+    },
+    {
+      "title": "Information Theory, Inference, and Learning Algorithms",
+      "category": "Tech",
+      "authors": "David MacKay",
+      "score": 9.0,
+      "published_year": 2003,
+      "read_year": 2018,
+      "source_row": 51
+    },
+    {
+      "title": "Algorithms to Live By",
+      "category": "Tech",
+      "authors": "Brian Christian, Tom Griffiths",
+      "score": 9.0,
+      "published_year": 2017,
+      "read_year": 2018,
+      "source_row": 50
+    },
+    {
+      "title": "Think Like a Data Scientist",
+      "category": "Tech",
+      "authors": "Brian Godsey",
+      "score": 8.0,
+      "published_year": 2017,
+      "read_year": 2018,
+      "source_row": 49
+    },
+    {
+      "title": "Hello, My Name Is Awesome",
+      "category": "Startups",
+      "authors": "Alexandra Watkins",
+      "score": 8.0,
+      "published_year": 2014,
+      "read_year": 2018,
+      "source_row": 48
+    },
+    {
+      "title": "The Magic of Thinking Big",
+      "category": "Self-Help",
+      "authors": "David Schwartz",
+      "score": 8.0,
+      "published_year": 1959,
+      "read_year": 2018,
+      "source_row": 47
+    },
+    {
+      "title": "Skin in the Game",
+      "category": "Business",
+      "authors": "Nassim Taleb",
+      "score": 10.0,
+      "published_year": 2017,
+      "read_year": 2018,
+      "source_row": 46
+    },
+    {
+      "title": "Shoe Dog",
+      "category": "Biography",
+      "authors": "Phil Knight",
+      "score": 9.0,
+      "published_year": 2016,
+      "read_year": 2018,
+      "source_row": 45
+    },
+    {
+      "title": "Your Brain on Porn",
+      "category": "Fun",
+      "authors": "Gary Wilson",
+      "score": 9.0,
+      "published_year": 2014,
+      "read_year": 2018,
+      "source_row": 44
+    },
+    {
+      "title": "12 Rules for Life",
+      "category": "Self-Help",
+      "authors": "Jordan Peterson",
+      "score": 9.0,
+      "published_year": 2017,
+      "read_year": 2018,
+      "source_row": 43
+    },
+    {
+      "title": "The Inner Game of Tennis",
+      "category": "Self-Help",
+      "authors": "Timothy Gallwey",
+      "score": 10.0,
+      "published_year": 1972,
+      "read_year": 2018,
+      "source_row": 42
+    },
+    {
+      "title": "Psycho-Cybernetics",
+      "category": "Self-Help",
+      "authors": "Maxwell Maltz",
+      "score": 10.0,
+      "published_year": 1960,
+      "read_year": 2018,
+      "source_row": 41
+    },
+    {
+      "title": "Models",
+      "category": "Fun",
+      "authors": "Mark Manson",
+      "score": 7.0,
+      "published_year": 2011,
+      "read_year": 2018,
+      "source_row": 40
+    },
+    {
+      "title": "Nomad Capitalist",
+      "category": "Fun",
+      "authors": "Andrew Henderson",
+      "score": 3.0,
+      "published_year": 2018,
+      "read_year": 2018,
+      "source_row": 39
+    },
+    {
+      "title": "On Writing Well",
+      "category": "Self-Help",
+      "authors": "William Zinsser",
+      "score": 5.0,
+      "published_year": 1976,
+      "read_year": 2018,
+      "source_row": 38
+    },
+    {
+      "title": "Checklist Manifesto",
+      "category": "Self-Help",
+      "authors": "Atul Gawande",
+      "score": 9.0,
+      "published_year": 2009,
+      "read_year": 2018,
+      "source_row": 37
+    },
+    {
+      "title": "Thinking, Fast and Slow",
+      "category": "Self-Help",
+      "authors": "Daniel Kahneman",
+      "score": 10.0,
+      "published_year": 2013,
+      "read_year": 2018,
+      "source_row": 36
+    },
+    {
+      "title": "The Phoenix Project",
+      "category": "Tech",
+      "authors": "Gene Kim, George Spafford, and Kevin Behr",
+      "score": 10.0,
+      "published_year": 2013,
+      "read_year": 2018,
+      "source_row": 35
+    },
+    {
+      "title": "The Lean Startup",
+      "category": "Startups",
+      "authors": "Eric Ries",
+      "score": 9.0,
+      "published_year": 2011,
+      "read_year": 2018,
+      "source_row": 34
+    },
+    {
+      "title": "Hackers & Painters",
+      "category": "Startups",
+      "authors": "Paul Graham",
+      "score": 7.0,
+      "published_year": 2003,
+      "read_year": 2017,
+      "source_row": 33
+    },
+    {
+      "title": "Natural Image Statistics",
+      "category": "Tech",
+      "authors": "Aapo Hyvärinen, Jarmo Hurri, and Patrik O. Hoyer",
+      "score": 9.0,
+      "published_year": 2009,
+      "read_year": 2017,
+      "source_row": 32
+    },
+    {
+      "title": "Blue Ocean Strategy",
+      "category": "Business",
+      "authors": "W. Chan Kim, Renée Mauborgne",
+      "score": 6.0,
+      "published_year": 2004,
+      "read_year": 2017,
+      "source_row": 31
+    },
+    {
+      "title": "Principles",
+      "category": "Self-Help",
+      "authors": "Ray Dalio",
+      "score": 9.0,
+      "published_year": 2017,
+      "read_year": 2017,
+      "source_row": 30
+    },
+    {
+      "title": "Python Data Science Handbook",
+      "category": "Tech",
+      "authors": "Jake VanderPlas",
+      "score": 9.0,
+      "published_year": 2017,
+      "read_year": 2017,
+      "source_row": 29
+    },
+    {
+      "title": "The Tao te Ching",
+      "category": "Fun",
+      "authors": "Lao Tzy",
+      "score": 9.0,
+      "published_year": -400,
+      "read_year": 2017,
+      "source_row": 28
+    },
+    {
+      "title": "Everybody Lies",
+      "category": "Tech",
+      "authors": "Seth Stephens-Davidowitz",
+      "score": 9.0,
+      "published_year": 2017,
+      "read_year": 2017,
+      "source_row": 27
+    },
+    {
+      "title": "Brand Seduction",
+      "category": "Business",
+      "authors": "Daryl Weber",
+      "score": 4.0,
+      "published_year": 2016,
+      "read_year": 2017,
+      "source_row": 26
+    },
+    {
+      "title": "The Hard Thing About Hard Things",
+      "category": "Biography",
+      "authors": "Ben Horowitz",
+      "score": 8.0,
+      "published_year": 2014,
+      "read_year": 2017,
+      "source_row": 25
+    },
+    {
+      "title": "Positioning",
+      "category": "Business",
+      "authors": "Al Ries and Jack Trout",
+      "score": 9.0,
+      "published_year": 1980,
+      "read_year": 2017,
+      "source_row": 24
+    },
+    {
+      "title": "The Gifts of Imperfection",
+      "category": "Self-Help",
+      "authors": "Brené Brown",
+      "score": 8.0,
+      "published_year": 2010,
+      "read_year": 2016,
+      "source_row": 23
+    },
+    {
+      "title": "Building Microservices: Designing Fine-Grained Systems",
+      "category": "Tech",
+      "authors": "Sam Newman",
+      "score": 9.0,
+      "published_year": 2014,
+      "read_year": 2016,
+      "source_row": 22
+    },
+    {
+      "title": "The Four Agreements",
+      "category": "Self-Help",
+      "authors": "Don Miguel Ruiz",
+      "score": 6.0,
+      "published_year": 1997,
+      "read_year": 2016,
+      "source_row": 21
+    },
+    {
+      "title": "Antifragile",
+      "category": "Fun",
+      "authors": "Nassim Taleb",
+      "score": 9.0,
+      "published_year": 2012,
+      "read_year": 2016,
+      "source_row": 20
+    },
+    {
+      "title": "Essentialism: The Disciplined Pursuit of Less",
+      "category": "Self-Help",
+      "authors": "Greg McKeown",
+      "score": 8.0,
+      "published_year": 2014,
+      "read_year": 2016,
+      "source_row": 19
+    },
+    {
+      "title": "Disrupted: My Misadventure in the Start-Up Bubble",
+      "category": "Startups",
+      "authors": "Daniel Lyons",
+      "score": 6.0,
+      "published_year": 2016,
+      "read_year": 2016,
+      "source_row": 18
+    },
+    {
+      "title": "Automate the Boring Stuff with Python",
+      "category": "Tech",
+      "authors": "Al Sweigart",
+      "score": 9.0,
+      "published_year": 2015,
+      "read_year": 2015,
+      "source_row": 17
+    },
+    {
+      "title": "One Day in the Life of Ivan Denisovich",
+      "category": "Fun",
+      "authors": "Aleksandr Solzhenitsyn",
+      "score": 10.0,
+      "published_year": 1970,
+      "read_year": 2015,
+      "source_row": 16
+    },
+    {
+      "title": "Data Mining and Statistics for Decision Making",
+      "category": "Tech",
+      "authors": "Stéphane Tufféry",
+      "score": 8.0,
+      "published_year": 2011,
+      "read_year": 2015,
+      "source_row": 15
+    },
+    {
+      "title": "Different",
+      "category": "Fun",
+      "authors": "Youngme Moon",
+      "score": 8.0,
+      "published_year": 2011,
+      "read_year": 2015,
+      "source_row": 14
+    },
+    {
+      "title": "And The Mountains Echoed",
+      "category": "Fun",
+      "authors": "Khaled Hosseini",
+      "score": 9.0,
+      "published_year": 2013,
+      "read_year": 2015,
+      "source_row": 13
+    },
+    {
+      "title": "Fooled by Randomness",
+      "category": "Self-Help",
+      "authors": "Nassim Taleb",
+      "score": 9.0,
+      "published_year": 2001,
+      "read_year": 2015,
+      "source_row": 12
+    },
+    {
+      "title": "The Way of the Superior Man",
+      "category": "Self-Help",
+      "authors": "David Deida",
+      "score": 9.0,
+      "published_year": 1997,
+      "read_year": 2015,
+      "source_row": 11
+    },
+    {
+      "title": "The Communist Manifesto",
+      "category": "Fun",
+      "authors": "Karl Marx",
+      "score": 5.0,
+      "published_year": 1848,
+      "read_year": 2015,
+      "source_row": 10
+    },
+    {
+      "title": "The Richest Man in Babylon",
+      "category": "Business",
+      "authors": "George S. Clason",
+      "score": 8.0,
+      "published_year": 1926,
+      "read_year": 2015,
+      "source_row": 9
+    },
+    {
+      "title": "Cashvertising",
+      "category": "Business",
+      "authors": "Drew Eric Whitman",
+      "score": 8.0,
+      "published_year": 2008,
+      "read_year": 2015,
+      "source_row": 8
+    },
+    {
+      "title": "The Alchemist",
+      "category": "Fun",
+      "authors": "Paulo Coelho",
+      "score": 10.0,
+      "published_year": 1988,
+      "read_year": 2015,
+      "source_row": 7
+    },
+    {
+      "title": "Animal Farm",
+      "category": "Fun",
+      "authors": "George Orwell",
+      "score": 10.0,
+      "published_year": 1945,
+      "read_year": 2015,
+      "source_row": 6
+    },
+    {
+      "title": "Exploiting Software: How to Break Code",
+      "category": "Tech",
+      "authors": "Greg Hoglund, Gary McGraw",
+      "score": 6.0,
+      "published_year": 2004,
+      "read_year": 2015,
+      "source_row": 5
+    },
+    {
+      "title": "Cloud Atlas",
+      "category": "Fun",
+      "authors": "David Mitchell",
+      "score": 9.0,
+      "published_year": 2004,
+      "read_year": 2015,
+      "source_row": 4
+    },
+    {
+      "title": "The Rootkit Arsenal",
+      "category": "Tech",
+      "authors": "Bill Blunden",
+      "score": 9.0,
+      "published_year": 2009,
+      "read_year": 2015,
+      "source_row": 3
+    },
+    {
+      "title": "Voilent Python",
+      "category": "Tech",
+      "authors": "TJ O'Connor",
+      "score": 7.0,
+      "published_year": 2012,
+      "read_year": 2015,
+      "source_row": 2
+    }
+  ],
+  "stats": {
+    "entries": 145,
+    "distinct_titles": 143,
+    "perfect_scores": 26,
+    "average_score": 8.0,
+    "categories": [
+      {
+        "name": "Biography",
+        "count": 8
+      },
+      {
+        "name": "Business",
+        "count": 33
+      },
+      {
+        "name": "Fun",
+        "count": 33
+      },
+      {
+        "name": "Self-Help",
+        "count": 35
+      },
+      {
+        "name": "Startups",
+        "count": 12
+      },
+      {
+        "name": "Tech",
+        "count": 24
+      }
+    ],
+    "years": [
+      {
+        "year": 2026,
+        "count": 1
+      },
+      {
+        "year": 2025,
+        "count": 4
+      },
+      {
+        "year": 2024,
+        "count": 14
+      },
+      {
+        "year": 2023,
+        "count": 12
+      },
+      {
+        "year": 2022,
+        "count": 12
+      },
+      {
+        "year": 2021,
+        "count": 29
+      },
+      {
+        "year": 2020,
+        "count": 13
+      },
+      {
+        "year": 2019,
+        "count": 10
+      },
+      {
+        "year": 2018,
+        "count": 18
+      },
+      {
+        "year": 2017,
+        "count": 10
+      },
+      {
+        "year": 2016,
+        "count": 6
+      },
+      {
+        "year": 2015,
+        "count": 16
+      }
+    ]
+  }
+}

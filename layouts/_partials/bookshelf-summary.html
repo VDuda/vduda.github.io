@@ -1,0 +1,25 @@
+{{ $stats := hugo.Data.reading.stats }}
+{{ $currentYear := int (now.Format "2006") }}
+{{ $completed := where $stats.years "year" "lt" $currentYear }}
+<dl class="reading-stats bookshelf-stats">
+  <div><dt>Books read</dt><dd>{{ $stats.entries }}</dd></div>
+  <div>
+    <dt>Avg. books / year</dt>
+    {{ if $completed }}
+      {{ $firstYear := (index (sort $completed "year" "asc") 0).year }}
+      {{ $count := 0 }}
+      {{ range $completed }}{{ $count = add $count .count }}{{ end }}
+      <dd>{{ printf "%.1f" (div (float $count) (sub $currentYear $firstYear)) }}</dd>
+    {{ else }}
+      <dd>—</dd>
+    {{ end }}
+  </div>
+</dl>
+<div class="bookshelf-category-line">
+  <p>Top categories</p>
+  <ul class="top-categories" aria-label="Top three categories by reading entries" role="list">
+    {{ range first 3 (sort $stats.categories "count" "desc") }}
+    <li><span>{{ .name }}</span> <strong>{{ .count }}</strong><span class="visually-hidden"> entries</span></li>
+    {{ end }}
+  </ul>
+</div>

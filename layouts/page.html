@@ -1,0 +1,36 @@
+{{ partial "header.html" . }}
+<main id="main" tabindex="-1" class="reading-page">
+  {{ partial "breadcrumbs.html" . }}
+  {{ $essay := or (eq .Section "blog") (eq .RelPermalink "/time/") }}
+  {{ if $essay }}<a class="back-link" href="{{ "blog/" | relURL }}"><span aria-hidden="true">←</span> All writing</a>{{ end }}
+  <article>
+    <header class="article-header">
+      <p class="eyebrow">{{ if $essay }}From the notebook{{ else }}A little background{{ end }}</p>
+      <h1>{{ .Title }}</h1>
+      {{ if $essay }}
+      <p class="article-meta">{{ if not .Date.IsZero }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time><span aria-hidden="true">·</span>{{ end }}{{ .ReadingTime }} min read</p>
+      {{ end }}
+    </header>
+    {{ if and (gt .WordCount 450) (gt (len .Fragments.Headings) 2) }}
+    <details class="article-contents"><summary>On this page</summary>{{ .TableOfContents }}</details>
+    {{ end }}
+    <div class="prose">{{ .Content }}</div>
+    {{ if eq .Section "blog" }}
+    {{ with .GetTerms "tags" }}
+    <nav class="article-tags" aria-label="Article topics"><span>Filed under</span>{{ range . }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}</nav>
+    {{ end }}
+    {{ end }}
+  </article>
+  {{ if $essay }}
+  <div class="article-end"><a class="back-link" href="{{ "blog/" | relURL }}"><span aria-hidden="true">←</span> Back to all writing</a><a class="text-link" href="#main">Back to top <span aria-hidden="true">↑</span></a></div>
+  {{ if eq .Section "blog" }}
+  <nav class="adjacent-posts" aria-label="More writing">
+    {{ with .PrevInSection }}<a href="{{ .RelPermalink }}"><span class="eyebrow">← Older essay</span><span class="adjacent-title">{{ .Title }}</span></a>{{ end }}
+    {{ with .NextInSection }}<a class="newer-post" href="{{ .RelPermalink }}"><span class="eyebrow">Newer essay →</span><span class="adjacent-title">{{ .Title }}</span></a>{{ end }}
+  </nav>
+  {{ end }}
+  {{ else }}
+  <div class="article-end"><a class="back-link" href="{{ site.Home.RelPermalink }}"><span aria-hidden="true">←</span> Back to home</a><a class="text-link" href="{{ "blog/" | relURL }}">Explore the writing <span aria-hidden="true">→</span></a></div>
+  {{ end }}
+</main>
+{{ partial "footer.html" . }}

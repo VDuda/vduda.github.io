@@ -1,0 +1,5 @@
+{{ $stats := hugo.Data.reading.stats }}
+<dl class="reading-stats">
+  <div><dt>Books read</dt><dd>{{ $stats.entries }}</dd></div>
+  <div><dt>Categories explored</dt><dd>{{ len $stats.categories }}</dd></div>
+</dl>

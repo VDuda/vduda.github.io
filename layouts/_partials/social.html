@@ -1,0 +1,17 @@
+<nav id="{{ .id }}" class="social" aria-label="{{ .label }}">
+  {{ $social := site.Params.social }}
+  {{ $profiles := slice
+    (dict "key" "linkedin" "name" "LinkedIn" "url" "https://www.linkedin.com/in/%s/")
+    (dict "key" "github" "name" "GitHub" "url" "https://github.com/%s")
+    (dict "key" "x" "name" "X.com" "url" "https://x.com/%s")
+  }}
+  {{ range $profiles }}
+    {{ $profile := . }}
+    {{ with index $social .key }}
+    <a href="{{ printf $profile.url . }}" target="_blank" rel="me noopener noreferrer">{{ $profile.name }}</a>
+    {{ end }}
+  {{ end }}
+  {{ with $social.email }}
+  <a href="mailto:{{ . }}">Email</a>
+  {{ end }}
+</nav>

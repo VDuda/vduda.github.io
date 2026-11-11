@@ -1,0 +1,10 @@
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol>
+    <li><a href="{{ site.Home.RelPermalink }}">Home</a></li>
+    {{ if or (and .IsPage (eq .Section "blog")) (eq .RelPermalink "/time/") (eq .Kind "term") (eq .Kind "taxonomy") }}
+    <li><a href="{{ "blog/" | relURL }}">Writing</a></li>
+    {{ end }}
+    {{ if eq .Kind "term" }}<li><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></li>{{ end }}
+    <li aria-current="page">{{ if and .IsPage (eq .Section "blog") }}Article{{ else }}{{ .Title }}{{ end }}</li>
+  </ol>
+</nav>

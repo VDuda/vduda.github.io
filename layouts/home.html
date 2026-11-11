@@ -1,0 +1,45 @@
+{{ partial "header.html" . }}
+<main id="main" tabindex="-1">
+  <section class="hero" aria-labelledby="intro-title">
+    <div class="hero-copy">
+      <p class="eyebrow">A personal notebook</p>
+      <h1 id="intro-title">{{ site.Params.intro }}</h1>
+      <p class="hero-description">{{ site.Params.description }}</p>
+      <div class="hero-actions">
+        <a class="button" href="{{ "blog/" | relURL }}">Explore the writing <span aria-hidden="true">↗</span></a>
+        <a class="text-link" href="{{ "about/" | relURL }}">A little about me <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+    <aside class="profile-card" aria-label="Vlad Duda and contact links">
+      <img class="portrait" src="{{ printf "img/%s" site.Params.authorimage | relURL }}" alt="Vlad Duda" width="180" height="180">
+      {{ partial "social.html" (dict "id" "profile-socials" "label" "Profile social links") }}
+    </aside>
+  </section>
+
+
+
+  <section class="reading-highlight" aria-labelledby="reading-title">
+    <header class="section-heading"><div><p class="eyebrow">Following the footnotes</p><h2 id="reading-title">On the bookshelf</h2></div><a class="text-link" href="{{ "reading/" | relURL }}">Explore the library <span aria-hidden="true">→</span></a></header>
+    <p>Finance, business, software, and the occasional detour. A reading log that goes back to {{ (index hugo.Data.reading.stats.years (sub (len hugo.Data.reading.stats.years) 1)).year }}.</p>
+    {{ partial "bookshelf-summary.html" . }}
+  </section>
+
+  {{ with site.GetPage "/time" }}
+  <aside class="notebook-aside" aria-labelledby="time-title">
+    <div><p class="eyebrow">A recurring curiosity</p><h2 id="time-title"><a href="{{ .RelPermalink }}">{{ .Title }} <span aria-hidden="true">↗</span></a></h2></div>
+    <p>Computers are precise. Our assumptions about time tend to be less so. A collection of things software keeps getting wrong.</p>
+  </aside>
+  {{ end }}
+  <section class="writing-section" aria-labelledby="latest-writing">
+    <header class="section-heading">
+      <div><p class="eyebrow">From the notebook</p><h2 id="latest-writing">Latest writing</h2></div>
+      <a class="text-link" href="{{ "blog/" | relURL }}">All writing <span aria-hidden="true">→</span></a>
+    </header>
+    <div class="post-list">
+      {{ range first 3 (where site.RegularPages "Section" "blog").ByDate.Reverse }}
+      {{ partial "post-row.html" (dict "page" . "level" 3) }}
+      {{ end }}
+    </div>
+  </section>
+</main>
+{{ partial "footer.html" . }}

@@ -3,7 +3,7 @@
   "short_name": "Vlad Duda",
   "start_url": "/",
   "icons": [],
-  "theme_color": "#ffffff",
-  "background_color": "#fcfcfc",
+  "theme_color": "#f7f7f2",
+  "background_color": "#f7f7f2",
   "display": "browser"
 }

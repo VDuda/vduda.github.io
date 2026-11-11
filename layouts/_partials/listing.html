@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+<main id="main" tabindex="-1" class="archive-page">
+  {{ partial "breadcrumbs.html" . }}
+  {{ if not .IsSection }}<a class="back-link" href="{{ "blog/" | relURL }}"><span aria-hidden="true">←</span> All writing</a>{{ end }}
+  <header class="archive-header">
+    <p class="eyebrow">The notebook</p>
+    <h1>{{ .Title }}</h1>
+    {{ if .IsSection }}<p>{{ .Description }}</p>{{ else if eq .Kind "term" }}<p>Writing filed under “{{ .Title }}”.</p>{{ else }}<p>Follow a thread through the notebook.</p>{{ end }}
+  </header>
+  <div class="archive-count"><span>{{ if eq .Kind "taxonomy" }}Browse topics{{ else }}{{ len .Pages }} {{ if eq (len .Pages) 1 }}entry{{ else }}entries{{ end }}{{ end }}</span><span>{{ if ne .Kind "taxonomy" }}Newest first{{ end }}</span></div>
+  <div class="post-list">
+    {{ range .Pages.ByDate.Reverse }}{{ partial "post-row.html" (dict "page" . "level" 2) }}{{ end }}
+  </div>
+  {{ if .IsSection }}
+    {{ with site.GetPage "/time" }}
+    <aside class="notebook-aside"><div><p class="eyebrow">Also in the notebook</p><h2><a href="{{ .RelPermalink }}">{{ .Title }} <span aria-hidden="true">↗</span></a></h2></div><p>A collection of false assumptions about time, calendars, and computers.</p></aside>
+    {{ end }}
+  {{ end }}
+  <div class="article-end"><a class="back-link" href="{{ site.Home.RelPermalink }}"><span aria-hidden="true">←</span> Back to home</a><a class="text-link" href="{{ "tags/" | relURL }}">Browse by topic <span aria-hidden="true">→</span></a></div>
+</main>
+{{ partial "footer.html" . }}

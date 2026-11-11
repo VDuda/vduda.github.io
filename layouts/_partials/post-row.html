@@ -1,0 +1,11 @@
+{{ $level := .level }}
+{{ with .page }}
+<article class="post-row">
+  <div class="post-date">{{ if not .Date.IsZero }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2006" }}</time>{{ else }}<span>Browse</span>{{ end }}</div>
+  <div class="post-summary">
+    <h{{ $level }}><a href="{{ .RelPermalink }}">{{ .Title }}</a></h{{ $level }}>
+    {{ with .Description }}<p>{{ . | truncate 175 }}</p>{{ end }}
+    {{ if .IsPage }}<span class="reading-time">{{ .ReadingTime }} min read</span>{{ end }}
+  </div>
+</article>
+{{ end }}

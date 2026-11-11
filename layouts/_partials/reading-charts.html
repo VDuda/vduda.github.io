@@ -1,0 +1,24 @@
+{{ $library := . }}
+{{ $yearMax := (index (sort .stats.years "count" "desc") 0).count }}
+{{ $categoryMax := (index (sort .stats.categories "count" "desc") 0).count }}
+<div class="reading-charts">
+  <section class="chart-panel" aria-labelledby="year-chart-title">
+    <h2 id="year-chart-title">Year by year</h2>
+    <p class="chart-description">Entries logged each year. {{ if eq (int (now.Format "2006")) (index .stats.years 0).year }}{{ now.Format "2006" }} is still in progress.{{ end }}</p>
+    <dl class="bar-chart year-chart">
+      {{ range sort .stats.years "year" "asc" }}
+      <div><dt>{{ .year }}</dt><dd><span class="bar-track" aria-hidden="true"><span class="bar-fill" style="width: {{ div (mul .count 100.0) $yearMax }}%"></span></span><span class="bar-value">{{ .count }}<span class="visually-hidden"> entries</span></span></dd></div>
+      {{ end }}
+    </dl>
+  </section>
+  <section class="chart-panel" aria-labelledby="category-chart-title">
+    <h2 id="category-chart-title">What I read</h2>
+    <p class="chart-description" id="category-scope">Categories across all reading years.</p>
+    <dl class="bar-chart category-chart" id="category-chart">
+      {{ range .stats.categories }}
+      <div data-chart-category="{{ .name }}"><dt>{{ .name }}</dt><dd><span class="bar-track" aria-hidden="true"><span class="bar-fill" style="width: {{ div (mul .count 100.0) $categoryMax }}%"></span></span><span class="bar-value"><span class="category-count">{{ .count }}</span><span class="visually-hidden"> entries</span></span></dd></div>
+      {{ end }}
+    </dl>
+    <p class="chart-note">Counts include repeat entries. Categories follow the original sheet.</p>
+  </section>
+</div>

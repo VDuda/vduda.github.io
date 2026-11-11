@@ -8,7 +8,7 @@ contentdir = 'content'
 layoutdir = 'layouts'
 publishdir = 'public'
 
-title = 'Vlad Duda'
+title = 'Vlad Duda — Pragmatist'
 
 theme = 'hugo-goa'
 
@@ -26,68 +26,60 @@ style = 'github'
 ## Site Settings
 [params]
 author = 'Vlad Duda'
-intro = 'Pragmatist'
+intro = 'Finance, AI, and how things work.'
 
-# description = """
-# Now <a href='https://rit.rakuten.co.jp'>@Rakuten</a>, 
-# Previously <a href='https://maxwellhealth.com'>@MaxwellHealth</a>, 
-# <a href='https://nuodb.com'>@NuoDB</a> and <a href='https://TheLightWalk.com'>@TheLightWalk</a>. 
-# <br/> \"Simplicity is the ultimate sophistication.\"
-# """
+description = 'Engineer, founder, and pragmatist. I build software and follow my curiosity across technology, markets, and the systems behind them.'
+
 authorimage = 'vlad-b-g.png'
 dateformat = 'Jan 2, 2006'
 
 ## Site Meta Settings
 [params.meta]
-description = 'Simple minimalist Vlad Duda'
-keywords = 'minimalist,vlad,duda,blog,goa,hugo,pragmatist'
+description = 'Vlad Duda — Finance, AI, and how things work. A personal notebook on technology, markets, and building software.'
+keywords = 'Vlad Duda,finance,AI,software,writing'
 
 ## Social Accounts
 [params.social]
-github = 'Vduda'
-instagram = 'vladuda'
+github = 'VDuda'
 # xing = '<username>'
 linkedin = 'vduda'
-twitter = 'BigBostonGuy'
+x = 'BigBostonGuy'
 #facebook = '<username>'
 #google = '<username>'
 #stackoverflow = '<username>'
-email = 'vlad@duda.wtf'
+email = 'vlad@usenomad.ai'
 
 ## Extras
 [params.extra]
-copyright = '© {year}. Vlad Duda. [Some Rights Reserved](https://creativecommons.org/licenses/by/3.0/).'
+copyright = '© {year}. Vlad Duda.'
 poweredby = false
 highlightjs = false
 
-## Main Menu
+## Main navigation, shared by every page
 [[menu.main]]
-    name = 'Book a Meeting'
-    identifier = 'meeting'
+    name = 'Home'
+    identifier = 'home'
     weight = 100
-    url = 'http://meet.duda.wtf'
+    url = '/'
 [[menu.main]]
-    name = 'Reading DB'
-    identifier = 'books'
+    name = 'Writing'
+    identifier = 'writing'
     weight = 200
-    url = 'https://docs.google.com/spreadsheets/d/13f8iDJDGdD8f8blAMoJfE5ofbr4PyAroc4fmHpjCRPs/edit?usp=sharing'
+    url = '/blog/'
 [[menu.main]]
-    name = 'Github'
-    identifier = 'github'
-    weight = 300
-    url = 'https://github.com/VDuda'
+    name = 'Reading'
+    identifier = 'reading'
+    weight = 250
+    url = '/reading/'
 [[menu.main]]
     name = 'About'
-    weight = 400
     identifier = 'about'
+    weight = 300
     url = '/about/'
-[[menu.main]]
-    name = 'What makes time special?'
-    weight = 500
-    identifier = 'time'
-    url = '/time/'
-[[menu.main]]
-    name = 'Blog'
-    weight = 600
-    identifier = 'blog'
-    url = '/blog/'
+
+## Secondary links in the footer
+[[menu.resources]]
+    name = 'Original reading sheet'
+    weight = 100
+    url = 'https://docs.google.com/spreadsheets/d/13f8iDJDGdD8f8blAMoJfE5ofbr4PyAroc4fmHpjCRPs/edit?usp=sharing'
+# Add a booking entry here when a replacement for meet.duda.wtf is available.
