@@ -9,7 +9,7 @@ draft: false
 
 *72 million Kalshi trades, 8 charts, 5 minutes.*
 
-Las Vegas Strip slot machines return about 93¢ on the dollar; some Kalshi longshots have returned as little as 43¢. That comparison opens [Jon Becker's *The Microstructure of Wealth Transfer in Prediction Markets*](https://www.jbecker.dev/research/prediction-market-microstructure), a study of 72.1 million trades covering $18.26 billion in volume. I wanted the short version: who puts money in, and who gets it back? Eight charts do most of the work.
+Las Vegas Strip slot machines return about 93¢ on the dollar; some Kalshi longshots have returned as little as 43¢. That comparison opens [Jon Becker's *The Microstructure of Wealth Transfer in Prediction Markets*](https://www.jbecker.dev/research/prediction-market-microstructure), a study of 72.1 million trades covering $18.26 billion in volume, from June 2021 through November 2025 (Q4 2025 is partial). I wanted the short version: who puts money in, and who gets it back? Eight charts do most of the work.
 
 Prices are well calibrated except at the extremes: cheap longshots tend to win less often than their prices imply. The 45-degree dashed line is perfect calibration; actual win rates track it closely until the tails. Sports accounts for 72% of notional volume, so this is largely a sports market in the sample.
 
