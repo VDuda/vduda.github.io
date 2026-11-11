@@ -1,0 +1,6 @@
+<header class="text-center header">
+  {{ with site.Params.authorimage }}
+  <img src="{{ printf "img/%s" . | relURL }}" alt="{{ site.Params.author }}" width="200" height="200" class="rounded-circle headshot">
+  {{ end }}
+  <h1 class="author">{{ site.Params.author }}</h1>
+</header>

@@ -1,22 +1,27 @@
 ## Basic Configuration
-baseurl = 'https://vlad-duda.com'
+baseURL = 'https://vlad-duda.com/'
 builddrafts = false
 canonifyurls = false
-languageCode = 'en-US'
+locale = 'en-US'
 
 contentdir = 'content'
 layoutdir = 'layouts'
 publishdir = 'public'
 
-author = 'Vlad Duda'
 title = 'Vlad Duda'
 
 theme = 'hugo-goa'
 
 ## Hugo Built-in Features
-#disqusShortname = 'vlad-duda' # Comment out to disable Disqus.
-googleAnalytics = 'UA-61576514-1'
 enableRobotsTXT = true
+timeZone = 'America/New_York'
+
+[module.hugoVersion]
+min = '0.169.0'
+
+# Syntax highlighting is generated as HTML/CSS, without browser JavaScript.
+[markup.highlight]
+style = 'github'
 
 ## Site Settings
 [params]
@@ -51,9 +56,9 @@ email = 'vlad@duda.wtf'
 
 ## Extras
 [params.extra]
-copyright = '© 2023. Vlad Duda. [Some Rights Reserved](https://creativecommons.org/licenses/by/3.0/).' 
+copyright = '© {year}. Vlad Duda. [Some Rights Reserved](https://creativecommons.org/licenses/by/3.0/).'
 poweredby = false
-highlightjs = true
+highlightjs = false
 
 ## Main Menu
 [[menu.main]]
@@ -75,14 +80,14 @@ highlightjs = true
     name = 'About'
     weight = 400
     identifier = 'about'
-    url = '/about'
+    url = '/about/'
 [[menu.main]]
     name = 'What makes time special?'
     weight = 500
     identifier = 'time'
-    url = '/time'
+    url = '/time/'
 [[menu.main]]
     name = 'Blog'
-    weight = 500
+    weight = 600
     identifier = 'blog'
     url = '/blog/'

@@ -1,4 +1,5 @@
 +++
+title = "About"
 comments = false
 draft = false
 showpagemeta = true
@@ -7,9 +8,7 @@ slug = "about"
 tags = ["about"]
 +++
 
-# About
-
-Enjoys hacking, writing, and andrenaline.
+Enjoys hacking, writing, and adrenaline.
 
 An internet gentleman that builds digital things. A career consisting of startups, corporate tech, and research. Roles such as Software Engineer, DevOps, MLOps, Cofounder, and Consultant. 
 
@@ -18,7 +17,7 @@ When not overwhelmed; I enjoy sailing, boxing, reading, and spending time with f
 Subjects I'm interested in:
 - Reverse Engineering
 - Productivity Hacks
-- Cutting edge software infrastracture 
+- Cutting edge software infrastructure
 - Immigration/Legal tech policy 
 - eCommerce (from the technical & research side)
 

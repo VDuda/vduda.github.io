@@ -2,7 +2,7 @@
 +++
 categories = ["Technology","Data Science"]
 comments = true
-date = "2023-11-23T10:12"
+date = "2023-11-23T10:12:00-05:00"
 draft = false
 showpagemeta = true
 showcomments = true

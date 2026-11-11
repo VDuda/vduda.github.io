@@ -6,6 +6,7 @@ draft = false
 showpagemeta = true
 showcomments = true
 slug = "time"
+aliases = ["/time/time/"]
 tags = ["time"]
 title = "What makes time special?"
 description = "Attemping to define time"

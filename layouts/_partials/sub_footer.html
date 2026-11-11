@@ -1,0 +1,5 @@
+<footer class="text-center footer">
+  <hr>
+  <p class="copyright">{{ replace site.Params.extra.copyright "{year}" (string now.Year) | markdownify }}</p>
+  <p><a href="{{ "index.xml" | relURL }}" aria-label="RSS Feed"><i class="fas fa-rss" aria-hidden="true"></i></a></p>
+</footer>

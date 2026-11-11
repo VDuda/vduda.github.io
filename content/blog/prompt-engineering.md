@@ -1,11 +1,12 @@
 +++
 categories = ["Technology"]
 comments = true
-date = "2023-01-08T11:36"
+date = "2023-01-08T11:36:00-05:00"
 draft = false
 showpagemeta = true
 showcomments = true
 slug = "prompt-engineering"
+aliases = ["/blog/prompt-engineering-deep-dive/"]
 tags = ["LLMs", "NLP", "Prompt Engineering", "Machine Learning", "Infrastructure"]
 title = "Prompt Engineering Will Not Be Necessary in the Future"
 description = "We discuss prompt engineering, as an NLP task, is not sustainable and the need for more structured input and output formats for querying large language models."

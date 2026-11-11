@@ -1,7 +1,7 @@
 +++
 categories = ["Technology"]
 comments = true
-date = "2022-05-08T11:36"
+date = "2022-05-08T11:36:00-04:00"
 draft = false
 showpagemeta = true
 showcomments = true

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.Locale }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ .Description | default site.Params.meta.description }}">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} - {{ site.Title }}{{ end }}</title>
+  {{ hugo.Generator }}
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{ range .AlternativeOutputFormats }}
+  <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ site.Title }}">
+  {{ end }}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto+Slab:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap">
+  <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha384-PPIZEGYM1v8zp5Py7UjFb79S58UeqCL9pYVnVPURKEqvioPROaVAJKKLzvH2rDnI" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | relURL }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | relURL }}">
+  <link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<div class="container">

@@ -1,4 +1,6 @@
-public
-public/categories/index.xml
-public/*
+/public/
+/resources/_gen/
+/.hugo_build.lock
+.DS_Store
+__pycache__/
 TheLightWalk.xlsx

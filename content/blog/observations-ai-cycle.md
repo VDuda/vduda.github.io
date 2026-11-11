@@ -1,7 +1,7 @@
 +++
 categories = ["Technology", "AI Trends"]
 comments = true
-date = "2023-11-20T12:00"
+date = "2023-11-20T12:00:00-05:00"
 draft = false
 showpagemeta = true
 showcomments = true
