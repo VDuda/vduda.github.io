@@ -289,16 +289,19 @@
     let cx = x, cy = y, cw = w, ch = h, row = [], sum = 0;
     const flush = () => {
       if (!row.length) return;
-      if (cw >= ch) { // strip across full width
-        const hh = sum / cw;
-        let off = 0;
-        row.forEach(it => { const ww = it.area / sum * cw; out.push({ node: it.node, x: cx + off, y: cy, w: ww, h: hh }); off += ww; });
-        cy += hh; ch -= hh;
-      } else { // strip down full height
+      // Lay each strip along the SHORT side of the remaining rect. This keeps
+      // rectangles squarish even when one item dominates (e.g. Sports = 73%):
+      // the giant goes in a full-height column, the rest subdivide beside it.
+      if (cw >= ch) { // short side is height: vertical strip, full height
         const ww = sum / ch;
         let off = 0;
         row.forEach(it => { const hh = it.area / sum * ch; out.push({ node: it.node, x: cx, y: cy + off, w: ww, h: hh }); off += hh; });
         cx += ww; cw -= ww;
+      } else { // short side is width: horizontal strip, full width
+        const hh = sum / cw;
+        let off = 0;
+        row.forEach(it => { const ww = it.area / sum * cw; out.push({ node: it.node, x: cx + off, y: cy, w: ww, h: hh }); off += ww; });
+        cy += hh; ch -= hh;
       }
       row = []; sum = 0;
     };

@@ -1,8 +1,9 @@
 {{- $type := .Get "type" -}}
 {{- $title := .Get "title" -}}
 {{- $data := .Get "data" -}}
+{{- $range := .Get "range" -}}
 <figure class="becker-chart" data-becker-chart="{{ $type }}" data-chart-data="{{ $data | relURL }}">
-  <figcaption>{{ $title }}</figcaption>
+  <figcaption>{{ $title }}{{ with $range }}<span class="becker-range">Data: {{ . }}</span>{{ end }}</figcaption>
   <canvas role="img" aria-label="{{ $title }}. Data from Jon Becker's prediction market research."></canvas>
   <details class="becker-chart-data"><summary>View chart data</summary><div class="becker-chart-table"></div></details>
 </figure>
