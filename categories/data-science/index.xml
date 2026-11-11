@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Data Science on Vlad Duda</title>
-    <link>https://vlad-duda.com/categories/data-science/</link>
-    <description>Recent content in Data Science on Vlad Duda</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <atom:link href="https://vlad-duda.com/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>User-Friendly Approaches and Diverse Language Support</title>
-      <link>https://vlad-duda.com/blog/future-of-llms/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/blog/future-of-llms/</guid>
-      <description>The shift towards User-Friendly approaches of data Python has long been the go-to choice for many tasks involving data — from analyzing data to developing machine learning models. It&amp;rsquo;s been preferred largely because it&amp;rsquo;s easy to use across different computer systems, it doesn&amp;rsquo;t require rigid data type definitions, and it&amp;rsquo;s great for quickly trying out ideas, which is often needed in data-related fields. Anything that can&amp;rsquo;t be done in SQL is done in Python.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Data Science on Vlad Duda</title>
+		<link>https://vlad-duda.com/categories/data-science/</link>
+		<description>Recent content in Data Science on Vlad Duda</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 23 Nov 2023 10:12:00 -0500</lastBuildDate>
+		
+			<atom:link href="https://vlad-duda.com/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>User-Friendly Approaches and Diverse Language Support</title>
+				<link>https://vlad-duda.com/blog/future-of-llms/</link>
+				<pubDate>Thu, 23 Nov 2023 10:12:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/blog/future-of-llms/</guid>
+				<description>&lt;h1 id=&#34;the-shift-towards-user-friendly-approaches-of-data&#34;&gt;The shift towards User-Friendly approaches of data&lt;/h1&gt;&#xA;&lt;p&gt;Python has long been the &lt;strong&gt;go-to choice&lt;/strong&gt; for many tasks involving data — from analyzing data to developing machine learning models. It&amp;rsquo;s been preferred largely because it&amp;rsquo;s easy to use across different computer systems, it doesn&amp;rsquo;t require rigid data type definitions, and it&amp;rsquo;s great for quickly trying out ideas, which is often needed in data-related fields. Anything that can&amp;rsquo;t be done in SQL is done in Python. But Python won&amp;rsquo;t be the language for LLMs.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

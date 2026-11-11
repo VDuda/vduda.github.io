@@ -1,152 +1,157 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags on Vlad Duda</title>
-    <link>https://vlad-duda.com/tags/</link>
-    <description>Recent content in Tags on Vlad Duda</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Wed, 02 Oct 2019 15:59:13 -0400</lastBuildDate>
-    <atom:link href="https://vlad-duda.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>time</title>
-      <link>https://vlad-duda.com/tags/time/</link>
-      <pubDate>Wed, 02 Oct 2019 15:59:13 -0400</pubDate>
-      <guid>https://vlad-duda.com/tags/time/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>about</title>
-      <link>https://vlad-duda.com/tags/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/tags/about/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI Development</title>
-      <link>https://vlad-duda.com/tags/ai-development/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/tags/ai-development/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI Strategy</title>
-      <link>https://vlad-duda.com/tags/ai-strategy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/tags/ai-strategy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Analysis</title>
-      <link>https://vlad-duda.com/tags/analysis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/tags/analysis/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Business Models</title>
-      <link>https://vlad-duda.com/tags/business-models/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/tags/business-models/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data Engineering</title>
-      <link>https://vlad-duda.com/tags/data-engineering/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/tags/data-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Flow State</title>
-      <link>https://vlad-duda.com/tags/flow-state/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/tags/flow-state/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Infrastructure</title>
-      <link>https://vlad-duda.com/tags/infrastructure/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/tags/infrastructure/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Innovation</title>
-      <link>https://vlad-duda.com/tags/innovation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/tags/innovation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>LLMs</title>
-      <link>https://vlad-duda.com/tags/llms/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/tags/llms/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Machine Learning</title>
-      <link>https://vlad-duda.com/tags/machine-learning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Maker Schedule</title>
-      <link>https://vlad-duda.com/tags/maker-schedule/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/tags/maker-schedule/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Management</title>
-      <link>https://vlad-duda.com/tags/management/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/tags/management/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>NLP</title>
-      <link>https://vlad-duda.com/tags/nlp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/tags/nlp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Productivity</title>
-      <link>https://vlad-duda.com/tags/productivity/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/tags/productivity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Programming Languages</title>
-      <link>https://vlad-duda.com/tags/programming-languages/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/tags/programming-languages/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Prompt Engineering</title>
-      <link>https://vlad-duda.com/tags/prompt-engineering/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/tags/prompt-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software Engineering</title>
-      <link>https://vlad-duda.com/tags/software-engineering/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/tags/software-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Startups</title>
-      <link>https://vlad-duda.com/tags/startups/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/tags/startups/</guid>
-      <description></description>
-    </item>
-  </channel>
+	<channel>
+		<title>Tags on Vlad Duda</title>
+		<link>https://vlad-duda.com/tags/</link>
+		<description>Recent content in Tags on Vlad Duda</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 23 Nov 2023 10:12:00 -0500</lastBuildDate>
+		
+			<atom:link href="https://vlad-duda.com/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Analysis</title>
+				<link>https://vlad-duda.com/tags/analysis/</link>
+				<pubDate>Thu, 23 Nov 2023 10:12:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/tags/analysis/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Data Engineering</title>
+				<link>https://vlad-duda.com/tags/data-engineering/</link>
+				<pubDate>Thu, 23 Nov 2023 10:12:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/tags/data-engineering/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>LLMs</title>
+				<link>https://vlad-duda.com/tags/llms/</link>
+				<pubDate>Thu, 23 Nov 2023 10:12:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/tags/llms/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Machine Learning</title>
+				<link>https://vlad-duda.com/tags/machine-learning/</link>
+				<pubDate>Thu, 23 Nov 2023 10:12:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/tags/machine-learning/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Programming Languages</title>
+				<link>https://vlad-duda.com/tags/programming-languages/</link>
+				<pubDate>Thu, 23 Nov 2023 10:12:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/tags/programming-languages/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>AI Development</title>
+				<link>https://vlad-duda.com/tags/ai-development/</link>
+				<pubDate>Mon, 20 Nov 2023 12:00:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/tags/ai-development/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>AI Strategy</title>
+				<link>https://vlad-duda.com/tags/ai-strategy/</link>
+				<pubDate>Mon, 20 Nov 2023 12:00:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/tags/ai-strategy/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Business Models</title>
+				<link>https://vlad-duda.com/tags/business-models/</link>
+				<pubDate>Mon, 20 Nov 2023 12:00:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/tags/business-models/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Innovation</title>
+				<link>https://vlad-duda.com/tags/innovation/</link>
+				<pubDate>Mon, 20 Nov 2023 12:00:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/tags/innovation/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Startups</title>
+				<link>https://vlad-duda.com/tags/startups/</link>
+				<pubDate>Mon, 20 Nov 2023 12:00:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/tags/startups/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Flow State</title>
+				<link>https://vlad-duda.com/tags/flow-state/</link>
+				<pubDate>Wed, 08 Mar 2023 11:36:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/tags/flow-state/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Maker Schedule</title>
+				<link>https://vlad-duda.com/tags/maker-schedule/</link>
+				<pubDate>Wed, 08 Mar 2023 11:36:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/tags/maker-schedule/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Management</title>
+				<link>https://vlad-duda.com/tags/management/</link>
+				<pubDate>Wed, 08 Mar 2023 11:36:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/tags/management/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Productivity</title>
+				<link>https://vlad-duda.com/tags/productivity/</link>
+				<pubDate>Wed, 08 Mar 2023 11:36:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/tags/productivity/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Software Engineering</title>
+				<link>https://vlad-duda.com/tags/software-engineering/</link>
+				<pubDate>Wed, 08 Mar 2023 11:36:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/tags/software-engineering/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Infrastructure</title>
+				<link>https://vlad-duda.com/tags/infrastructure/</link>
+				<pubDate>Sun, 08 Jan 2023 11:36:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/tags/infrastructure/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>NLP</title>
+				<link>https://vlad-duda.com/tags/nlp/</link>
+				<pubDate>Sun, 08 Jan 2023 11:36:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/tags/nlp/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Prompt Engineering</title>
+				<link>https://vlad-duda.com/tags/prompt-engineering/</link>
+				<pubDate>Sun, 08 Jan 2023 11:36:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/tags/prompt-engineering/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Time</title>
+				<link>https://vlad-duda.com/tags/time/</link>
+				<pubDate>Wed, 02 Oct 2019 15:59:13 -0400</pubDate>
+				<guid>https://vlad-duda.com/tags/time/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>About</title>
+				<link>https://vlad-duda.com/tags/about/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://vlad-duda.com/tags/about/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>

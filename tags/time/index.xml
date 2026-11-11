@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>time on Vlad Duda</title>
-    <link>https://vlad-duda.com/tags/time/</link>
-    <description>Recent content in time on Vlad Duda</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Wed, 02 Oct 2019 15:59:13 -0400</lastBuildDate>
-    <atom:link href="https://vlad-duda.com/tags/time/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>What makes time special?</title>
-      <link>https://vlad-duda.com/time/</link>
-      <pubDate>Wed, 02 Oct 2019 15:59:13 -0400</pubDate>
-      <guid>https://vlad-duda.com/time/</guid>
-      <description>Well for one, the first come first serve principle doesn&amp;rsquo;t always hold true within the landscape of software. Time is maleable within the computer science world. Misunderstanding time has led to space shuttle explosions, database exploits, incorrect gps direction, and plenty of other examples!&#xA;For the past few years, I have devoted a significant amount of time to troubleshooting issues related with time. Time has a massive impact on our society based on how we: define, calculate, and understand time.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Time on Vlad Duda</title>
+		<link>https://vlad-duda.com/tags/time/</link>
+		<description>Recent content in Time on Vlad Duda</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 02 Oct 2019 15:59:13 -0400</lastBuildDate>
+		
+			<atom:link href="https://vlad-duda.com/tags/time/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>What makes time special?</title>
+				<link>https://vlad-duda.com/time/</link>
+				<pubDate>Wed, 02 Oct 2019 15:59:13 -0400</pubDate>
+				<guid>https://vlad-duda.com/time/</guid>
+				<description>&lt;p&gt;Well for one, the first come first serve principle doesn&amp;rsquo;t &lt;em&gt;always&lt;/em&gt; hold true within the landscape of software. Time is maleable within the computer science world. Misunderstanding time has led to space shuttle explosions, database exploits, incorrect gps direction, and plenty of other examples!&lt;/p&gt;&#xA;&lt;p&gt;For the past few years, I have devoted a significant amount of time to troubleshooting issues related with time. Time has a massive impact on our society based on how we: define, calculate, and understand time. Working with time is engrossing, it could be exasperating at times, but it always provides valuable insights. One might assume that software is flawless, but all code has bugs, and modern software is no exception.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

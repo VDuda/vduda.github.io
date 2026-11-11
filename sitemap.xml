@@ -2,19 +2,100 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://vlad-duda.com/tags/analysis/</loc>
+    <lastmod>2023-11-23T10:12:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/blog/</loc>
+    <lastmod>2023-11-23T10:12:00-05:00</lastmod>
+  </url><url>
     <loc>https://vlad-duda.com/categories/</loc>
-    <lastmod>2019-10-02T15:59:13-04:00</lastmod>
+    <lastmod>2023-11-23T10:12:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/tags/data-engineering/</loc>
+    <lastmod>2023-11-23T10:12:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/categories/data-science/</loc>
+    <lastmod>2023-11-23T10:12:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/tags/llms/</loc>
+    <lastmod>2023-11-23T10:12:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/tags/machine-learning/</loc>
+    <lastmod>2023-11-23T10:12:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/tags/programming-languages/</loc>
+    <lastmod>2023-11-23T10:12:00-05:00</lastmod>
   </url><url>
     <loc>https://vlad-duda.com/tags/</loc>
-    <lastmod>2019-10-02T15:59:13-04:00</lastmod>
+    <lastmod>2023-11-23T10:12:00-05:00</lastmod>
   </url><url>
-    <loc>https://vlad-duda.com/tags/time/</loc>
-    <lastmod>2019-10-02T15:59:13-04:00</lastmod>
+    <loc>https://vlad-duda.com/categories/technology/</loc>
+    <lastmod>2023-11-23T10:12:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/blog/future-of-llms/</loc>
+    <lastmod>2023-11-23T10:12:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/</loc>
+    <lastmod>2023-11-23T10:12:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/tags/ai-development/</loc>
+    <lastmod>2023-11-20T12:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/tags/ai-strategy/</loc>
+    <lastmod>2023-11-20T12:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/categories/ai-trends/</loc>
+    <lastmod>2023-11-20T12:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/tags/business-models/</loc>
+    <lastmod>2023-11-20T12:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/tags/innovation/</loc>
+    <lastmod>2023-11-20T12:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/blog/ai-cycle-insights-2016-2018/</loc>
+    <lastmod>2023-11-20T12:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/tags/startups/</loc>
+    <lastmod>2023-11-20T12:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/tags/flow-state/</loc>
+    <lastmod>2023-03-08T11:36:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/tags/maker-schedule/</loc>
+    <lastmod>2023-03-08T11:36:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/blog/maker-time/</loc>
+    <lastmod>2023-03-08T11:36:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/tags/management/</loc>
+    <lastmod>2023-03-08T11:36:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/tags/productivity/</loc>
+    <lastmod>2023-03-08T11:36:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/tags/software-engineering/</loc>
+    <lastmod>2023-03-08T11:36:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/tags/infrastructure/</loc>
+    <lastmod>2023-01-08T11:36:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/tags/nlp/</loc>
+    <lastmod>2023-01-08T11:36:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/tags/prompt-engineering/</loc>
+    <lastmod>2023-01-08T11:36:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/blog/prompt-engineering/</loc>
+    <lastmod>2023-01-08T11:36:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/blog/genai-winnners/</loc>
+    <lastmod>2022-05-08T11:36:00-04:00</lastmod>
   </url><url>
     <loc>https://vlad-duda.com/categories/time/</loc>
     <lastmod>2019-10-02T15:59:13-04:00</lastmod>
   </url><url>
-    <loc>https://vlad-duda.com/</loc>
+    <loc>https://vlad-duda.com/tags/time/</loc>
     <lastmod>2019-10-02T15:59:13-04:00</lastmod>
   </url><url>
     <loc>https://vlad-duda.com/time/</loc>
@@ -23,59 +104,5 @@
     <loc>https://vlad-duda.com/about/</loc>
   </url><url>
     <loc>https://vlad-duda.com/tags/about/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/tags/ai-development/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/tags/ai-strategy/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/categories/ai-trends/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/tags/analysis/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/blog/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/tags/business-models/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/tags/data-engineering/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/categories/data-science/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/tags/flow-state/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/tags/infrastructure/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/tags/innovation/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/blog/ai-cycle-insights-2016-2018/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/blog/genai-winnners/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/tags/llms/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/tags/machine-learning/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/tags/maker-schedule/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/blog/maker-time/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/tags/management/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/tags/nlp/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/tags/productivity/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/tags/programming-languages/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/tags/prompt-engineering/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/blog/prompt-engineering/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/tags/software-engineering/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/tags/startups/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/categories/technology/</loc>
-  </url><url>
-    <loc>https://vlad-duda.com/blog/future-of-llms/</loc>
   </url>
 </urlset>

@@ -215,9 +215,6 @@ h6.meta
 
     color: #8b8b8b;
 }
-section.meta {
-    margin-top:
-}
 .powered
 {
     font-family: 'Roboto', sans-serif;
@@ -264,3 +261,9 @@ pre > code {
     word-wrap: initial;
     word-break: initial;
 }
+
+/* Keep article media and code within the reading column. */
+.content img { max-width: 100%; height: auto; }
+.content pre { overflow-x: auto; padding: 1rem; border-radius: 0.25rem; }
+.content a { text-decoration: underline; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }

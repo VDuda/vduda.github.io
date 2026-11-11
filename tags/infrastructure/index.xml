@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Infrastructure on Vlad Duda</title>
-    <link>https://vlad-duda.com/tags/infrastructure/</link>
-    <description>Recent content in Infrastructure on Vlad Duda</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <atom:link href="https://vlad-duda.com/tags/infrastructure/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Prompt Engineering Will Not Be Necessary in the Future</title>
-      <link>https://vlad-duda.com/blog/prompt-engineering/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/blog/prompt-engineering/</guid>
-      <description>Prompting large language models (LLMs) is more of an art than a science, and it requires significant effort to develop useful prompts. However, prompt engineering is not a sustainable approach to querying LLMs, and it won&amp;rsquo;t be necessary in the future.&#xA;Current prompt engineering methods rely on concatenation or templating, but these have limitations for handling complex prompts and require structured data inputs and outputs for best use.&#xA;Prompt engineering today primarily relies on prompt concatenation or templating.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Infrastructure on Vlad Duda</title>
+		<link>https://vlad-duda.com/tags/infrastructure/</link>
+		<description>Recent content in Infrastructure on Vlad Duda</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 08 Jan 2023 11:36:00 -0500</lastBuildDate>
+		
+			<atom:link href="https://vlad-duda.com/tags/infrastructure/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Prompt Engineering Will Not Be Necessary in the Future</title>
+				<link>https://vlad-duda.com/blog/prompt-engineering/</link>
+				<pubDate>Sun, 08 Jan 2023 11:36:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/blog/prompt-engineering/</guid>
+				<description>&lt;p&gt;Prompting large language models (LLMs) is more of an art than a science, and it requires significant effort to develop useful prompts. However, prompt engineering is not a sustainable approach to querying LLMs, and it won&amp;rsquo;t be necessary in the future.&lt;/p&gt;&#xA;&lt;p&gt;Current prompt engineering methods rely on concatenation or templating, but these have limitations for handling complex prompts and require structured data inputs and outputs for best use.&lt;/p&gt;&#xA;&lt;p&gt;Prompt engineering today primarily relies on prompt concatenation or templating. For instance, &lt;a href=&#34;https://github.com/jbilcke/latent-browser&#34;&gt;&lt;code&gt;latent-browser&lt;/code&gt;&lt;/a&gt; uses this approach to generate web applications in real-time by templating the user&amp;rsquo;s query under &lt;code&gt;${query}&lt;/code&gt;.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

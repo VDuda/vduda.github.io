@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Software Engineering on Vlad Duda</title>
-    <link>https://vlad-duda.com/tags/software-engineering/</link>
-    <description>Recent content in Software Engineering on Vlad Duda</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <atom:link href="https://vlad-duda.com/tags/software-engineering/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>LLM Winners: Incumbents, New Entrants, and Data Owners</title>
-      <link>https://vlad-duda.com/blog/genai-winnners/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/blog/genai-winnners/</guid>
-      <description>As LLMs become more widespread, there are a few key groups of potential winners:&#xA;Incumbents with existing distribution networks: Companies like Google, Microsoft, and Amazon can layer LLMs into their existing products and services to enhance the user experience. For example, Google Search could use LLMs to provide more comprehensive and informative answers to user queries. New companies that develop specialized LLM applications: There is an opportunity for new companies to develop specialized LLM applications that are tailored to the needs of specific industries or user groups.</description>
-    </item>
-    <item>
-      <title>Maker Time: The Key to High-Performing Software Teams</title>
-      <link>https://vlad-duda.com/blog/maker-time/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/blog/maker-time/</guid>
-      <description>Time is the most important factor in creating high-performing software teams. Managers must carefully manage time, scope, and people to deliver successfully.&#xA;Time: The total time the team spends on a problem. Scope: The functionality of the completed work. People: The number of people on the team and their skills. What teams do with their time is the primary factor in determining their output. Even if you hire the best engineers, they will not succeed if they spend all their time on the wrong things or are constantly interrupted.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Software Engineering on Vlad Duda</title>
+		<link>https://vlad-duda.com/tags/software-engineering/</link>
+		<description>Recent content in Software Engineering on Vlad Duda</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 08 Mar 2023 11:36:00 -0500</lastBuildDate>
+		
+			<atom:link href="https://vlad-duda.com/tags/software-engineering/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Maker Time: The Key to High-Performing Software Teams</title>
+				<link>https://vlad-duda.com/blog/maker-time/</link>
+				<pubDate>Wed, 08 Mar 2023 11:36:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/blog/maker-time/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Time is the most important factor in creating high-performing software teams.&lt;/strong&gt; Managers must carefully manage time, scope, and people to deliver successfully.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Time:&lt;/strong&gt; The total time the team spends on a problem.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Scope:&lt;/strong&gt; The functionality of the completed work.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;People:&lt;/strong&gt; The number of people on the team and their skills.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;What teams do with their time is the primary factor in determining their output. Even if you hire the best engineers, they will not succeed if they spend all their time on the wrong things or are constantly interrupted.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>LLM Winners: Incumbents, New Entrants, and Data Owners</title>
+				<link>https://vlad-duda.com/blog/genai-winnners/</link>
+				<pubDate>Sun, 08 May 2022 11:36:00 -0400</pubDate>
+				<guid>https://vlad-duda.com/blog/genai-winnners/</guid>
+				<description>&lt;p&gt;As LLMs become more widespread, there are a few key groups of potential winners:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Incumbents with existing distribution networks:&lt;/strong&gt; Companies like Google, Microsoft, and Amazon can layer LLMs into their existing products and services to enhance the user experience. For example, Google Search could use LLMs to provide more comprehensive and informative answers to user queries.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;New companies that develop specialized LLM applications:&lt;/strong&gt; There is an opportunity for new companies to develop specialized LLM applications that are tailored to the needs of specific industries or user groups. For example, a company could develop an LLM-powered tool to help writers generate blog posts or marketing copy.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Companies that own large amounts of data:&lt;/strong&gt; LLMs require large amounts of data to train, so companies that own large datasets have a competitive advantage. For example, Google could use its massive dataset of text and code to train LLMs that are more powerful and versatile than those developed by companies with smaller datasets.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;It is still too early to say definitively who will benefit most from LLMs. However, the three groups listed above are well-positioned to capitalize on the growing demand for LLM-powered products and services.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

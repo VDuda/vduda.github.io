@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Analysis on Vlad Duda</title>
-    <link>https://vlad-duda.com/tags/analysis/</link>
-    <description>Recent content in Analysis on Vlad Duda</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <atom:link href="https://vlad-duda.com/tags/analysis/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>LLM Winners: Incumbents, New Entrants, and Data Owners</title>
-      <link>https://vlad-duda.com/blog/genai-winnners/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/blog/genai-winnners/</guid>
-      <description>As LLMs become more widespread, there are a few key groups of potential winners:&#xA;Incumbents with existing distribution networks: Companies like Google, Microsoft, and Amazon can layer LLMs into their existing products and services to enhance the user experience. For example, Google Search could use LLMs to provide more comprehensive and informative answers to user queries. New companies that develop specialized LLM applications: There is an opportunity for new companies to develop specialized LLM applications that are tailored to the needs of specific industries or user groups.</description>
-    </item>
-    <item>
-      <title>User-Friendly Approaches and Diverse Language Support</title>
-      <link>https://vlad-duda.com/blog/future-of-llms/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/blog/future-of-llms/</guid>
-      <description>The shift towards User-Friendly approaches of data Python has long been the go-to choice for many tasks involving data — from analyzing data to developing machine learning models. It&amp;rsquo;s been preferred largely because it&amp;rsquo;s easy to use across different computer systems, it doesn&amp;rsquo;t require rigid data type definitions, and it&amp;rsquo;s great for quickly trying out ideas, which is often needed in data-related fields. Anything that can&amp;rsquo;t be done in SQL is done in Python.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Analysis on Vlad Duda</title>
+		<link>https://vlad-duda.com/tags/analysis/</link>
+		<description>Recent content in Analysis on Vlad Duda</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 23 Nov 2023 10:12:00 -0500</lastBuildDate>
+		
+			<atom:link href="https://vlad-duda.com/tags/analysis/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>User-Friendly Approaches and Diverse Language Support</title>
+				<link>https://vlad-duda.com/blog/future-of-llms/</link>
+				<pubDate>Thu, 23 Nov 2023 10:12:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/blog/future-of-llms/</guid>
+				<description>&lt;h1 id=&#34;the-shift-towards-user-friendly-approaches-of-data&#34;&gt;The shift towards User-Friendly approaches of data&lt;/h1&gt;&#xA;&lt;p&gt;Python has long been the &lt;strong&gt;go-to choice&lt;/strong&gt; for many tasks involving data — from analyzing data to developing machine learning models. It&amp;rsquo;s been preferred largely because it&amp;rsquo;s easy to use across different computer systems, it doesn&amp;rsquo;t require rigid data type definitions, and it&amp;rsquo;s great for quickly trying out ideas, which is often needed in data-related fields. Anything that can&amp;rsquo;t be done in SQL is done in Python. But Python won&amp;rsquo;t be the language for LLMs.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>LLM Winners: Incumbents, New Entrants, and Data Owners</title>
+				<link>https://vlad-duda.com/blog/genai-winnners/</link>
+				<pubDate>Sun, 08 May 2022 11:36:00 -0400</pubDate>
+				<guid>https://vlad-duda.com/blog/genai-winnners/</guid>
+				<description>&lt;p&gt;As LLMs become more widespread, there are a few key groups of potential winners:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Incumbents with existing distribution networks:&lt;/strong&gt; Companies like Google, Microsoft, and Amazon can layer LLMs into their existing products and services to enhance the user experience. For example, Google Search could use LLMs to provide more comprehensive and informative answers to user queries.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;New companies that develop specialized LLM applications:&lt;/strong&gt; There is an opportunity for new companies to develop specialized LLM applications that are tailored to the needs of specific industries or user groups. For example, a company could develop an LLM-powered tool to help writers generate blog posts or marketing copy.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Companies that own large amounts of data:&lt;/strong&gt; LLMs require large amounts of data to train, so companies that own large datasets have a competitive advantage. For example, Google could use its massive dataset of text and code to train LLMs that are more powerful and versatile than those developed by companies with smaller datasets.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;It is still too early to say definitively who will benefit most from LLMs. However, the three groups listed above are well-positioned to capitalize on the growing demand for LLM-powered products and services.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

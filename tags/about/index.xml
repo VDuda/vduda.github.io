@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>about on Vlad Duda</title>
-    <link>https://vlad-duda.com/tags/about/</link>
-    <description>Recent content in about on Vlad Duda</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <atom:link href="https://vlad-duda.com/tags/about/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>https://vlad-duda.com/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/about/</guid>
-      <description>About Enjoys hacking, writing, and andrenaline.&#xA;An internet gentleman that builds digital things. A career consisting of startups, corporate tech, and research. Roles such as Software Engineer, DevOps, MLOps, Cofounder, and Consultant.&#xA;When not overwhelmed; I enjoy sailing, boxing, reading, and spending time with friends &amp;amp; family.&#xA;Subjects I&amp;rsquo;m interested in:&#xA;Reverse Engineering Productivity Hacks Cutting edge software infrastracture Immigration/Legal tech policy eCommerce (from the technical &amp;amp; research side) Software wrk2-docker: Benchmarking Network Connections tor-exit: Monitor Tor Exit Nodes visc2ovpn: Convert file formats PandaCoin: AI/ML meets blockchain api-gateway-consul: Personal API Gateway magmi: Magento Mass Importer konsul: LLM for Immigration Advice Open Source OSSU: Open Source Society University tldr: Better than Google/SO Rancher: Centralized Kubernetes Control Plane (On-Prem) OpenRefine: Dealing with Dirty Data vuestorefront: Headless eCommerce PrivateBin: Zero-Trust PasteBin awesome-bash: bash widgets Fun PoC||GTFO: IYKYK Phrack Hubris Humility Index: Score high in both to win WTF Happened in 1971: Gold standard and Bitcoin The Machine Stops Dead Internet Theory: bots, bots, bots Monte Carlo: First document describing Monte Carlo Reverse Engineering LLMs Questions What Happens When?</description>
-    </item>
-  </channel>
+	<channel>
+		<title>About on Vlad Duda</title>
+		<link>https://vlad-duda.com/tags/about/</link>
+		<description>Recent content in About on Vlad Duda</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<atom:link href="https://vlad-duda.com/tags/about/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>About</title>
+				<link>https://vlad-duda.com/about/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://vlad-duda.com/about/</guid>
+				<description>&lt;p&gt;Enjoys hacking, writing, and adrenaline.&lt;/p&gt;&#xA;&lt;p&gt;An internet gentleman that builds digital things. A career consisting of startups, corporate tech, and research. Roles such as Software Engineer, DevOps, MLOps, Cofounder, and Consultant.&lt;/p&gt;&#xA;&lt;p&gt;When not overwhelmed; I enjoy sailing, boxing, reading, and spending time with friends &amp;amp; family.&lt;/p&gt;&#xA;&lt;p&gt;Subjects I&amp;rsquo;m interested in:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Reverse Engineering&lt;/li&gt;&#xA;&lt;li&gt;Productivity Hacks&lt;/li&gt;&#xA;&lt;li&gt;Cutting edge software infrastructure&lt;/li&gt;&#xA;&lt;li&gt;Immigration/Legal tech policy&lt;/li&gt;&#xA;&lt;li&gt;eCommerce (from the technical &amp;amp; research side)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://hub.docker.com/r/1vlad/wrk2-docker/&#34;&gt;wrk2-docker&lt;/a&gt;: Benchmarking Network Connections&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/VDuda/tor-exit&#34;&gt;tor-exit&lt;/a&gt;: Monitor Tor Exit Nodes&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/VDuda/viscosity-to-openvpn&#34;&gt;visc2ovpn&lt;/a&gt;: Convert file formats&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/VDuda/PandaCoin&#34;&gt;PandaCoin&lt;/a&gt;: AI/ML meets blockchain&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/VDuda/api-gateway-consul&#34;&gt;api-gateway-consul&lt;/a&gt;: Personal API Gateway&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/VDuda/magmi-git&#34;&gt;magmi&lt;/a&gt;: Magento Mass Importer&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://konsul.io/&#34;&gt;konsul&lt;/a&gt;: LLM for Immigration Advice&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;open-source&#34;&gt;Open Source&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/ossu&#34;&gt;OSSU&lt;/a&gt;: Open Source Society University&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/tldr-pages/tldr&#34;&gt;tldr&lt;/a&gt;: Better than Google/SO&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/rancher/rancher&#34;&gt;Rancher&lt;/a&gt;: Centralized Kubernetes Control Plane (On-Prem)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/OpenRefine/openrefine.org&#34;&gt;OpenRefine&lt;/a&gt;: Dealing with Dirty Data&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/vuestorefront/magento2&#34;&gt;vuestorefront&lt;/a&gt;: Headless eCommerce&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/PrivateBin/PrivateBin&#34;&gt;PrivateBin&lt;/a&gt;: Zero-Trust PasteBin&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/awesome-lists/awesome-bash&#34;&gt;awesome-bash&lt;/a&gt;: bash widgets&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;fun&#34;&gt;Fun&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/angea/pocorgtfo&#34;&gt;PoC||GTFO&lt;/a&gt;: IYKYK Phrack&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.nunomonteiro.org/the-hubris-humility-index&#34;&gt;Hubris Humility Index&lt;/a&gt;: Score high in both to win&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://wtfhappenedin1971.com/&#34;&gt;WTF Happened in 1971&lt;/a&gt;: Gold standard and Bitcoin&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cs.ucdavis.edu/~koehl/Teaching/ECS188/PDF_files/Machine_stops.pdf&#34;&gt;The Machine Stops&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.theatlantic.com/technology/archive/2021/08/dead-internet-theory-wrong-but-feels-true/619937/&#34;&gt;Dead Internet Theory&lt;/a&gt;: bots, bots, bots&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://people.bordeaux.inria.fr/pierre.delmoral/MetropolisUlam49.pdf&#34;&gt;Monte Carlo&lt;/a&gt;: First document describing Monte Carlo&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/Shamar/ANN-decompiler&#34;&gt;Reverse Engineering LLMs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;questions&#34;&gt;Questions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/alex/what-happens-when&#34;&gt;What Happens When?&lt;/a&gt;: The greatest of all CS interview question&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://waitbutwhy.com/2013/11/how-to-beat-procrastination.html&#34;&gt;Why Procrastinators?&lt;/a&gt;: A curse or addiction&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://users.ece.cmu.edu/~gamvrosi/thelastq.html&#34;&gt;Reverse entropy?&lt;/a&gt;: The Last Question&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+	</channel>
 </rss>

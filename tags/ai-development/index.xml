@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>AI Development on Vlad Duda</title>
-    <link>https://vlad-duda.com/tags/ai-development/</link>
-    <description>Recent content in AI Development on Vlad Duda</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <atom:link href="https://vlad-duda.com/tags/ai-development/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Insights from the last AI Cycle </title>
-      <link>https://vlad-duda.com/blog/ai-cycle-insights-2016-2018/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vlad-duda.com/blog/ai-cycle-insights-2016-2018/</guid>
-      <description>Drawing from the AI cycle of 2016-2018, there are some insights that can be developed:&#xA;Importance of Strategic Planning: Many startups fell into the trap of assuming that AI development would be a linear process, and that increased computing power and data would naturally lead to improved AI capabilities. Infrastructure takes time to build (and time to sell to enterprises).&#xA;Need for Sustainable Business Models: The failure of the &amp;ldquo;Human-in-the-loop&amp;rdquo; approach underscores the need for sustainable business models.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>AI Development on Vlad Duda</title>
+		<link>https://vlad-duda.com/tags/ai-development/</link>
+		<description>Recent content in AI Development on Vlad Duda</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 20 Nov 2023 12:00:00 -0500</lastBuildDate>
+		
+			<atom:link href="https://vlad-duda.com/tags/ai-development/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Insights from the last AI Cycle </title>
+				<link>https://vlad-duda.com/blog/ai-cycle-insights-2016-2018/</link>
+				<pubDate>Mon, 20 Nov 2023 12:00:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/blog/ai-cycle-insights-2016-2018/</guid>
+				<description>&lt;p&gt;Drawing from the AI cycle of 2016-2018, there are some insights that can be developed:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Importance of Strategic Planning&lt;/strong&gt;: Many startups fell into the trap of assuming that AI development would be a linear process, and that increased computing power and data would naturally lead to improved AI capabilities. Infrastructure takes time to build (and time to sell to enterprises).&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Need for Sustainable Business Models&lt;/strong&gt;: The failure of the &amp;ldquo;Human-in-the-loop&amp;rdquo; approach underscores the need for sustainable business models. Relying on the future success of technology to make a currently unprofitable model profitable is a risky strategy. Chatbots and agents that relied on human intervention with the intention of replacing said human processes were not sustainable.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Value of Simplicity&lt;/strong&gt;: The success of simpler models and frameworks over more complex ones indicates the value of simplicity in AI. Users often prefer tools that are easy to use and understand, even if they are less sophisticated. The data stack (e.g., much more grounded analysis) saw more investment and success.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Focus on Core AI Capabilities&lt;/strong&gt;: The success of companies that focused on core AI capabilities, such as data labeling, suggests that there is value in focusing on fundamental aspects of AI.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+			</item>
+	</channel>
 </rss>
