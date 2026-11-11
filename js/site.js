@@ -13,7 +13,20 @@
       setSize(sizeControl.value);
       try { localStorage.setItem('vduda:text-size', sizeControl.value); } catch { /* Preferences are optional. */ }
     });
-    document.querySelector('.reading-controls').hidden = false;
+    const preferences = document.querySelector('.reading-controls');
+    preferences.hidden = false;
+    preferences.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && preferences.open) {
+        preferences.open = false;
+        preferences.querySelector('summary').focus();
+      }
+    });
+    preferences.addEventListener('focusout', () => requestAnimationFrame(() => {
+      if (!preferences.contains(document.activeElement)) preferences.open = false;
+    }));
+    document.addEventListener('pointerdown', event => {
+      if (!preferences.contains(event.target)) preferences.open = false;
+    });
   }
 
   const form = document.querySelector('#reading-filters');

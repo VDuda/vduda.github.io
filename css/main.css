@@ -84,6 +84,15 @@ h1, h2, h3 { overflow-wrap: anywhere; font-family: var(--serif); font-weight: 40
 .prose li + li { margin-top: .5em; }
 .prose li > p { margin-block: .7em; }
 .prose a { color: var(--accent); }
+.becker-chart { margin: 1.8rem 0; padding: 1rem; border: 1px solid var(--rule); background: rgba(255,255,255,.45); }
+.becker-chart figcaption { margin-bottom: .75rem; color: var(--ink); font-family: var(--sans); font-size: 1rem; font-weight: 650; line-height: 1.35; }
+.becker-chart canvas { display: block; width: 100%; }
+.becker-chart-data { margin-top: .4rem; font-family: var(--sans); font-size: .9rem; }
+.becker-chart-data summary { width: fit-content; cursor: pointer; color: var(--accent); text-decoration: underline; text-underline-offset: .15em; }
+.becker-chart-table { max-height: 20rem; overflow: auto; }
+.becker-chart-table table { width: 100%; margin-top: .75rem; border-collapse: collapse; font-size: .85rem; }
+.becker-chart-table th, .becker-chart-table td { padding: .35rem .5rem; border-bottom: 1px solid var(--rule); text-align: left; }
+@media (max-width: 600px) { .becker-chart { padding: .65rem; margin-inline: -.25rem; } }
 .prose strong { font-weight: 600; }
 .prose blockquote { margin-left: 0; padding: 4px 0 4px 24px; border-left: 2px solid #9ca991; color: #555e50; font-style: italic; }
 .prose blockquote p { margin: 0; }
@@ -190,7 +199,7 @@ button:hover { background: var(--wash); }
 .masthead { gap: .5rem 2rem; }
 .wordmark { min-height: 44px; display: inline-flex; align-items: center; }
 .primary-nav { gap: .25rem 1.5rem; }
-.reading-controls { display: flex; flex-wrap: wrap; justify-content: flex-end; align-items: center; gap: .5rem .75rem; margin-top: 1rem; font-size: 1rem; }
+.reading-controls { display: flex; flex-wrap: wrap; justify-content: flex-end; align-items: center; gap: .5rem .75rem; margin: 0; font-size: 1rem; }
 .reading-controls label { font-weight: 500; }
 .reading-controls select { width: auto; }
 .visually-hidden { position: absolute; top: 0; left: 0; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
@@ -312,10 +321,11 @@ button:hover { background: var(--wash); }
 .wordmark { flex-direction: row; flex-wrap: wrap; align-items: baseline; gap: .125rem .625rem; white-space: normal; }
 .wordmark .brand-name { color: var(--ink); }
 .wordmark .brand-tagline { font-family: var(--serif); font-style: italic; font-size: 1.125rem; letter-spacing: 0; color: var(--muted); }
-.hero { grid-template-columns: minmax(0,1fr) 240px; gap: 64px; align-items: center; }
-.profile-card { width: min(240px, 100%); min-width: 0; }
-.profile-card .portrait { display: block; position: static; width: 180px; max-width: 100%; height: auto; aspect-ratio: 1; margin: 0 auto; }
-.profile-card .social { justify-content: center; gap: .25rem .75rem; margin-top: 1rem; }
+.hero { grid-template-columns: minmax(0,1fr) 360px; gap: 48px; align-items: center; }
+.profile-card { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 1rem; width: min(360px, 100%); min-width: 0; }
+.profile-card .portrait { display: block; position: static; flex: 0 0 180px; width: 180px; max-width: 100%; height: auto; aspect-ratio: 1; margin: 0; }
+.profile-card .social { display: grid; flex: 1 1 7.5rem; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem .75rem; margin: 0; min-width: 0; }
+.profile-card .social a { justify-content: flex-start; min-width: 0; border-bottom: 1px solid var(--rule); padding-block: .375rem; }
 .bookshelf-category-line { display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem 1.5rem; font-size: 1rem; }
 .bookshelf-category-line > p { color: var(--muted); }
 .top-categories { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; list-style: none; padding: 0; margin: 0; }
@@ -338,3 +348,13 @@ button:hover { background: var(--wash); }
   .bar-track { border: 1px solid CanvasText; }
   .bar-fill { background: CanvasText; forced-color-adjust: none; }
 }
+
+/* A compact preference menu fits the brand row on iPhone-sized screens. */
+.masthead { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: .5rem 1rem; padding-block: 1rem; }
+.masthead .wordmark { min-width: 0; }
+.masthead .reading-controls { display: block; position: relative; flex: 0 1 auto; margin-left: auto; }
+.reading-controls > summary { display: list-item; min-height: 44px; padding: .625rem .5rem; font-size: 1rem; color: var(--ink); }
+.reading-controls[open] > summary { color: var(--accent); }
+.reading-preferences-panel { position: absolute; top: calc(100% + .5rem); right: 0; z-index: 5; display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; width: max-content; max-width: min(calc(100vw - 2.5rem), 24rem); padding: 1rem; border: 1px solid #66745f; border-radius: 3px; background: var(--paper); box-shadow: 0 6px 18px #24292314; }
+.reading-preferences-panel select { max-width: 100%; }
+.masthead .primary-nav { flex: 1 1 100%; justify-content: flex-start; }

@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Thu, 23 Nov 2023 10:12:00 -0500</lastBuildDate>
+			<lastBuildDate>Mon, 02 Feb 2026 00:00:00 -0500</lastBuildDate>
 		
 			<atom:link href="https://vlad-duda.com/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Where the Money Goes in Prediction Markets</title>
+				<link>https://vlad-duda.com/blog/where-the-money-goes-in-prediction-markets/</link>
+				<pubDate>Mon, 02 Feb 2026 00:00:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/blog/where-the-money-goes-in-prediction-markets/</guid>
+				<description>&lt;p&gt;&lt;em&gt;72 million Kalshi trades, 8 charts, 5 minutes.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Las Vegas Strip slot machines return about 93¢ on the dollar; some Kalshi longshots have returned as little as 43¢. That comparison opens &lt;a href=&#34;https://www.jbecker.dev/research/prediction-market-microstructure&#34;&gt;Jon Becker&amp;rsquo;s &lt;em&gt;The Microstructure of Wealth Transfer in Prediction Markets&lt;/em&gt;&lt;/a&gt;, a study of 72.1 million trades covering $18.26 billion in volume. I wanted the short version: who puts money in, and who gets it back? Eight charts do most of the work.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>User-Friendly Approaches and Diverse Language Support</title>
 				<link>https://vlad-duda.com/blog/future-of-llms/</link>

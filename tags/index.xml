@@ -10,9 +10,30 @@
 		
 		
 		
-			<lastBuildDate>Thu, 23 Nov 2023 10:12:00 -0500</lastBuildDate>
+			<lastBuildDate>Mon, 02 Feb 2026 00:00:00 -0500</lastBuildDate>
 		
 			<atom:link href="https://vlad-duda.com/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Data</title>
+				<link>https://vlad-duda.com/tags/data/</link>
+				<pubDate>Mon, 02 Feb 2026 00:00:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/tags/data/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Kalshi</title>
+				<link>https://vlad-duda.com/tags/kalshi/</link>
+				<pubDate>Mon, 02 Feb 2026 00:00:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/tags/kalshi/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Prediction-Markets</title>
+				<link>https://vlad-duda.com/tags/prediction-markets/</link>
+				<pubDate>Mon, 02 Feb 2026 00:00:00 -0500</pubDate>
+				<guid>https://vlad-duda.com/tags/prediction-markets/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Analysis</title>
 				<link>https://vlad-duda.com/tags/analysis/</link>
