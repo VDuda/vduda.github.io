@@ -73,29 +73,30 @@
       <p class="eyebrow">From the notebook</p>
       <h1>Where the Money Goes in Prediction Markets</h1>
       
-      <p class="article-meta"><time datetime="2026-02-02">February 2, 2026</time><span aria-hidden="true">·</span>3 min read</p>
+      <p class="article-meta"><time datetime="2026-02-02">February 2, 2026</time><span aria-hidden="true">·</span>4 min read</p>
       
     </header>
     
     <div class="prose"><p><em>72 million Kalshi trades, 8 charts, 5 minutes.</em></p>
-<p>Las Vegas Strip slot machines return about 93¢ on the dollar; some Kalshi longshots have returned as little as 43¢. That comparison opens <a href="https://www.jbecker.dev/research/prediction-market-microstructure">Jon Becker&rsquo;s <em>The Microstructure of Wealth Transfer in Prediction Markets</em></a>, a study of 72.1 million trades covering $18.26 billion in volume, from June 2021 through November 2025 (Q4 2025 is partial). I wanted the short version: who puts money in, and who gets it back? Eight charts do most of the work.</p>
+<p><strong>Data window: June 2021 – November 2025.</strong> Every chart below covers this span; Q4 2025 is incomplete (collection ended November 25).</p>
+<p>Las Vegas Strip slot machines return about 93¢ on the dollar; some Kalshi longshots have returned as little as 43¢. That comparison opens <a href="https://www.jbecker.dev/research/prediction-market-microstructure">Jon Becker&rsquo;s <em>The Microstructure of Wealth Transfer in Prediction Markets</em></a>, a study of 72.1 million trades covering $18.26 billion in volume. I wanted the short version: who puts money in, and who gets it back? Eight charts do most of the work.</p>
 <p>Prices are well calibrated except at the extremes: cheap longshots tend to win less often than their prices imply. The 45-degree dashed line is perfect calibration; actual win rates track it closely until the tails. Sports accounts for 72% of notional volume, so this is largely a sports market in the sample.</p>
 <figure class="becker-chart" data-becker-chart="calibration" data-chart-data="/data/becker/actual_win_rate_vs_contract_price.json">
-  <figcaption>Actual Win Rate vs Contract Price</figcaption>
+  <figcaption>Actual Win Rate vs Contract Price<span class="becker-range">Data: Jun 2021 – Nov 2025</span></figcaption>
   <canvas role="img" aria-label="Actual Win Rate vs Contract Price. Data from Jon Becker's prediction market research."></canvas>
   <details class="becker-chart-data"><summary>View chart data</summary><div class="becker-chart-table"></div></details>
 </figure>
 <script src="/js/becker-charts.js" defer></script>
 
 <figure class="becker-chart" data-becker-chart="category" data-chart-data="/data/becker/market_categories_treemap.json">
-  <figcaption>Kalshi Volume Distribution by Category</figcaption>
+  <figcaption>Kalshi Volume Distribution by Category<span class="becker-range">Data: Jun 2021 – Nov 2025</span></figcaption>
   <canvas role="img" aria-label="Kalshi Volume Distribution by Category. Data from Jon Becker's prediction market research."></canvas>
   <details class="becker-chart-data"><summary>View chart data</summary><div class="becker-chart-table"></div></details>
 </figure>
 <script src="/js/becker-charts.js" defer></script>
 
 <figure class="becker-chart" data-becker-chart="sample" data-chart-data="/data/becker/sample_size_by_price.json">
-  <figcaption>Sample: Trades by Price Bucket</figcaption>
+  <figcaption>Sample: Trades by Price Bucket<span class="becker-range">Data: Jun 2021 – Nov 2025</span></figcaption>
   <canvas role="img" aria-label="Sample: Trades by Price Bucket. Data from Jon Becker's prediction market research."></canvas>
   <details class="becker-chart-data"><summary>View chart data</summary><div class="becker-chart-table"></div></details>
 </figure>
@@ -104,7 +105,7 @@
 
 <h2 id="who-wins-who-loses">Who wins, who loses</h2>
 <figure class="becker-chart" data-becker-chart="maker-price" data-chart-data="/data/becker/maker_vs_taker_returns.json">
-  <figcaption>Maker and Taker Returns by Contract Price</figcaption>
+  <figcaption>Maker and Taker Returns by Contract Price<span class="becker-range">Data: Jun 2021 – Nov 2025</span></figcaption>
   <canvas role="img" aria-label="Maker and Taker Returns by Contract Price. Data from Jon Becker's prediction market research."></canvas>
   <details class="becker-chart-data"><summary>View chart data</summary><div class="becker-chart-table"></div></details>
 </figure>
@@ -114,7 +115,7 @@
 
 <h2 id="the-optimism-tax">The optimism tax</h2>
 <figure class="becker-chart" data-becker-chart="yes-no" data-chart-data="/data/becker/longshot_ev_asymmetry.json">
-  <figcaption>Historical YES and NO Returns at Equal Cost</figcaption>
+  <figcaption>Historical YES and NO Returns at Equal Cost<span class="becker-range">Data: Jun 2021 – Nov 2025</span></figcaption>
   <canvas role="img" aria-label="Historical YES and NO Returns at Equal Cost. Data from Jon Becker's prediction market research."></canvas>
   <details class="becker-chart-data"><summary>View chart data</summary><div class="becker-chart-table"></div></details>
 </figure>
@@ -124,7 +125,7 @@
 
 <h2 id="it-depends-on-what-you-bet-on">It depends on what you bet on</h2>
 <figure class="becker-chart" data-becker-chart="category-gap" data-chart-data="/data/becker/maker_taker_returns_by_group.json">
-  <figcaption>Maker–Taker Gap by Category</figcaption>
+  <figcaption>Maker–Taker Gap by Category<span class="becker-range">Data: Jun 2021 – Nov 2025</span></figcaption>
   <canvas role="img" aria-label="Maker–Taker Gap by Category. Data from Jon Becker's prediction market research."></canvas>
   <details class="becker-chart-data"><summary>View chart data</summary><div class="becker-chart-table"></div></details>
 </figure>
@@ -134,14 +135,14 @@
 
 <h2 id="when-it-flipped">When it flipped</h2>
 <figure class="becker-chart" data-becker-chart="volume" data-chart-data="/data/becker/kalshi_quarterly_volume.json">
-  <figcaption>Kalshi Quarterly Volume</figcaption>
+  <figcaption>Kalshi Quarterly Volume<span class="becker-range">Data: Jun 2021 – Nov 2025 · Q4 &#39;25 partial</span></figcaption>
   <canvas role="img" aria-label="Kalshi Quarterly Volume. Data from Jon Becker's prediction market research."></canvas>
   <details class="becker-chart-data"><summary>View chart data</summary><div class="becker-chart-table"></div></details>
 </figure>
 <script src="/js/becker-charts.js" defer></script>
 
 <figure class="becker-chart" data-becker-chart="gap-over-time" data-chart-data="/data/becker/maker_taker_gap_over_time.json">
-  <figcaption>Maker-Taker Returns Over Time</figcaption>
+  <figcaption>Maker-Taker Returns Over Time<span class="becker-range">Data: Jun 2021 – Nov 2025 · Q4 &#39;25 partial</span></figcaption>
   <canvas role="img" aria-label="Maker-Taker Returns Over Time. Data from Jon Becker's prediction market research."></canvas>
   <details class="becker-chart-data"><summary>View chart data</summary><div class="becker-chart-table"></div></details>
 </figure>
