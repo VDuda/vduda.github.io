@@ -4,60 +4,77 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="We discuss prompt engineering, as an NLP task, is not sustainable and the need for more structured input and output formats for querying large language models.">
-  <title>Prompt Engineering Will Not Be Necessary in the Future - Vlad Duda</title>
+  <title>Prompt Engineering Will Not Be Necessary in the Future - Vlad Duda — Pragmatist</title>
   <meta name="generator" content="Hugo 0.169.0">
   <link rel="canonical" href="https://vlad-duda.com/blog/prompt-engineering/">
   
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto+Slab:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap">
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha384-PPIZEGYM1v8zp5Py7UjFb79S58UeqCL9pYVnVPURKEqvioPROaVAJKKLzvH2rDnI" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="stylesheet" href="/css/custom.css">
+  <script src="/js/site.js" defer></script>
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
-  <meta name="theme-color" content="#ffffff">
+  <meta name="theme-color" content="#f7f7f2">
 </head>
-<body>
-<div class="container">
+<body class="page-page">
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="site-shell">
+  <header class="masthead">
+    <a class="wordmark" href="/" aria-label="Vlad Duda, pragmatist — home"><span class="brand-name">Vlad Duda<span class="brand-dot" aria-hidden="true">.</span></span><span class="brand-tagline">Pragmatist</span></a>
+    <nav class="primary-nav" aria-label="Main navigation">
+      
+      
+      
+      <a href="/">Home</a>
+      
+      
+      
+      <a href="/blog/" aria-current="true">Writing</a>
+      
+      
+      
+      <a href="/reading/">Reading</a>
+      
+      
+      
+      <a href="/about/">About</a>
+      
+    </nav>
+  </header>
+  <aside class="reading-controls" aria-label="Reading preferences" hidden>
+    <label for="text-size">Text size</label>
+    <select id="text-size">
+      <option value="100">Standard</option>
+      <option value="125">Large</option>
+      <option value="150">Extra large</option>
+      <option value="200">Double size</option>
+    </select>
+  </aside>
 
-
-<header class="text-start title">
-  <h1 class="title">Prompt Engineering Will Not Be Necessary in the Future</h1>
-</header>
-
-<section id="category-pane" class="meta">
-  
-  <div class="d-flex flex-column flex-md-row justify-content-between">
-    <h6 class="text-start meta">
-       PUBLISHED ON JAN 8, 2023
-      
-      / 3 MIN READ
-      
-      
-      
-      —
-      
-      
-      <a class="meta"
-        href="/categories/technology">TECHNOLOGY</a>
-      
-      
-      
-    </h6>
-  </div>
-  
-</section>
-
-<section id="content-pane">
-  <div class="text-justify content">
+<main id="main" tabindex="-1" class="reading-page">
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol>
+    <li><a href="/">Home</a></li>
     
-    <nav id="TableOfContents"></nav>
+    <li><a href="/blog/">Writing</a></li>
     
-    <p>Prompting large language models (LLMs) is more of an art than a science, and it requires significant effort to develop useful prompts. However, prompt engineering is not a sustainable approach to querying LLMs, and it won&rsquo;t be necessary in the future.</p>
+    
+    <li aria-current="page">Article</li>
+  </ol>
+</nav>
+
+  
+  <a class="back-link" href="/blog/"><span aria-hidden="true">←</span> All writing</a>
+  <article>
+    <header class="article-header">
+      <p class="eyebrow">From the notebook</p>
+      <h1>Prompt Engineering Will Not Be Necessary in the Future</h1>
+      
+      <p class="article-meta"><time datetime="2023-01-08">January 8, 2023</time><span aria-hidden="true">·</span>3 min read</p>
+      
+    </header>
+    
+    <div class="prose"><p>Prompting large language models (LLMs) is more of an art than a science, and it requires significant effort to develop useful prompts. However, prompt engineering is not a sustainable approach to querying LLMs, and it won&rsquo;t be necessary in the future.</p>
 <p>Current prompt engineering methods rely on concatenation or templating, but these have limitations for handling complex prompts and require structured data inputs and outputs for best use.</p>
 <p>Prompt engineering today primarily relies on prompt concatenation or templating. For instance, <a href="https://github.com/jbilcke/latent-browser"><code>latent-browser</code></a> uses this approach to generate web applications in real-time by templating the user&rsquo;s query under <code>${query}</code>.</p>
 <pre tabindex="0"><code>Imagine that you are a senior frontend engineer tasked with developing a web application using only HTML and JavaScript. 
@@ -91,88 +108,58 @@ While some examples may be provided, you will need to adapt them to the specific
 </li>
 </ul>
 <p>To sum up, prompt engineering is an unsustainable way of querying LLMs, and it won&rsquo;t be needed in the future. Rather, we should focus on creating more structure in the input and output of LLM queries. We can achieve this by employing purpose-built DSLs, developing schemas, and using multiple runtimes, which will allow us to move beyond prompt engineering and fully utilize LLMs&rsquo; potential for solving complex tasks in a sustainable and scalable way.</p>
-
-  </div>
-</section>
-
-<section id="tag-pane" class="meta">
+</div>
+    
+    
+    <nav class="article-tags" aria-label="Article topics"><span>Filed under</span><a href="/tags/llms/">LLMs</a><a href="/tags/nlp/">NLP</a><a href="/tags/prompt-engineering/">Prompt Engineering</a><a href="/tags/machine-learning/">Machine Learning</a><a href="/tags/infrastructure/">Infrastructure</a></nav>
+    
+    
+  </article>
   
-  <div class="d-flex flex-column flex-md-row justify-content-between">
-    <h6 class="text-end meta">
-      
-      
-      
-      TAGS:
-      
-      
-      <a class="meta" href="/tags/infrastructure">INFRASTRUCTURE</a>,
-      
-      
-      <a class="meta" href="/tags/llms">LLMS</a>,
-      
-      
-      <a class="meta" href="/tags/machine-learning">MACHINE LEARNING</a>,
-      
-      
-      <a class="meta" href="/tags/nlp">NLP</a>,
-      
-      
-      <a class="meta" href="/tags/prompt-engineering">PROMPT ENGINEERING</a>
-      
-      
-      
-    </h6>
-  </div>
+  <div class="article-end"><a class="back-link" href="/blog/"><span aria-hidden="true">←</span> Back to all writing</a><a class="text-link" href="#main">Back to top <span aria-hidden="true">↑</span></a></div>
   
-</section>
-
-
-
-
-
-
-
-<section id="menu-pane" class="menu text-center">
-  
-  <nav aria-label="Page navigation">
-    <ul class="pagination justify-content-center">
-      
-      
-      <li class="menu-item">
-        <a class="menu-item" href="https://vlad-duda.com/blog/genai-winnners/">&lt; prev</a>
-      </li>
-      
-
-      <li class="menu-item">
-        
-        <span class="menu-item">&nbsp;|&nbsp;</span>
-        
-        <a class="menu-item" href="/blog">blog</a>
-        
-        <span class="menu-item">&nbsp;|&nbsp;</span>
-        
-      </li>
-
-      
-      <li class="menu-item">
-        <a class="menu-item" href="https://vlad-duda.com/blog/maker-time/">next &gt;</a>
-      </li>
-      
-      
-    </ul>
+  <nav class="adjacent-posts" aria-label="More writing">
+    <a href="/blog/genai-winnners/"><span class="eyebrow">← Older essay</span><span class="adjacent-title">LLM Winners: Incumbents, New Entrants, and Data Owners</span></a>
+    <a class="newer-post" href="/blog/maker-time/"><span class="eyebrow">Newer essay →</span><span class="adjacent-title">Maker Time: The Key to High-Performing Software Teams</span></a>
   </nav>
   
-  <h4 class="text-center mt-3"><a class="menu-item" href="https://vlad-duda.com/">home</a></h4>
-</section>
+  
+</main>
+<footer class="site-footer">
+  <div class="footer-main">
+    <p class="copyright">© 2026. Vlad Duda.</p>
+    <nav id="footer-socials" class="social" aria-label="Footer social profiles">
+  
+  
+  
+    
+    
+    <a href="https://www.linkedin.com/in/vduda/" target="_blank" rel="me noopener noreferrer">LinkedIn</a>
+    
+  
+    
+    
+    <a href="https://github.com/VDuda" target="_blank" rel="me noopener noreferrer">GitHub</a>
+    
+  
+    
+    
+    <a href="https://x.com/BigBostonGuy" target="_blank" rel="me noopener noreferrer">X.com</a>
+    
+  
+  
+  <a href="mailto:vlad@usenomad.ai">Email</a>
+  
+</nav>
 
-<footer class="text-center footer">
-  <hr>
-  <p class="copyright">© 2026. Vlad Duda. <a href="https://creativecommons.org/licenses/by/3.0/">Some Rights Reserved</a>.</p>
-  <p><a href="/index.xml" aria-label="RSS Feed"><i class="fas fa-rss" aria-hidden="true"></i></a></p>
+  </div>
+  <nav class="resource-links" aria-label="Resources">
+    <a href="https://docs.google.com/spreadsheets/d/13f8iDJDGdD8f8blAMoJfE5ofbr4PyAroc4fmHpjCRPs/edit?usp=sharing">Original reading sheet <span aria-hidden="true">↗</span></a>
+    <a href="/index.xml">RSS feed</a>
+  </nav>
 </footer>
 
 </div>
 </body>
 </html>
-
 

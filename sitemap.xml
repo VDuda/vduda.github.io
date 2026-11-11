@@ -5,9 +5,6 @@
     <loc>https://vlad-duda.com/tags/analysis/</loc>
     <lastmod>2023-11-23T10:12:00-05:00</lastmod>
   </url><url>
-    <loc>https://vlad-duda.com/blog/</loc>
-    <lastmod>2023-11-23T10:12:00-05:00</lastmod>
-  </url><url>
     <loc>https://vlad-duda.com/categories/</loc>
     <lastmod>2023-11-23T10:12:00-05:00</lastmod>
   </url><url>
@@ -36,6 +33,9 @@
     <lastmod>2023-11-23T10:12:00-05:00</lastmod>
   </url><url>
     <loc>https://vlad-duda.com/</loc>
+    <lastmod>2023-11-23T10:12:00-05:00</lastmod>
+  </url><url>
+    <loc>https://vlad-duda.com/blog/</loc>
     <lastmod>2023-11-23T10:12:00-05:00</lastmod>
   </url><url>
     <loc>https://vlad-duda.com/tags/ai-development/</loc>
@@ -104,5 +104,7 @@
     <loc>https://vlad-duda.com/about/</loc>
   </url><url>
     <loc>https://vlad-duda.com/tags/about/</loc>
+  </url><url>
+    <loc>https://vlad-duda.com/reading/</loc>
   </url>
 </urlset>
